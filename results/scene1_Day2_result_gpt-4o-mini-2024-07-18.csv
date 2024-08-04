@@ -1,0 +1,8 @@
+scene1,Day2,MultiChoice,Q1,2,2,0.5
+scene1,Day2,MultiChoice,Q2,10,1,0.9090909090909091
+scene1,Day2,MultiChoice,Q3,1,0,1.0
+scene1,Day2,MultiChoice,Q4,1,0,1.0
+scene1,Day2,MultiChoice,Q5,1,7,0.125
+scene1,Day2,YesNo,Q1,2,2,0.5
+scene1,Day2,YesNo,Q2,10,1,0.9090909090909091
+scene1,Day2,YesNo,Q3,1,0,1.0

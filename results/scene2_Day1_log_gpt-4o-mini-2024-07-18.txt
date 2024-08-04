@@ -1,0 +1,3348 @@
+Category: MultiChoice/Q1
+question path: QA/MultiChoice/Q1/q1_answer_scene2_Day1_bedroom.json
+
+I will provide a question, choices, and functions.
+Select one function to answer the question and include the required arguments in your response.
+Format: function_name, arguments (e.g., count_total_room_entries, bedroom)
+
+Question: How many times did he enter the bedroom?
+Choices: [4, 5]
+Functions:
+- count_total_room_entries
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: Total number of entries into the room
+
+- count_action_occurrences
+# Parameters: action_name (close, grab, switchon, switchoff, turnto, ...)
+# Returns: Number of times the action was performed within each activity
+
+- get_first_action_in_room
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: First action performed after entering the room
+
+- get_last_action_before_entry
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: Last action performed before entering the room
+
+- get_action_at_time
+# Parameters: time (e.g., 1h-30m-15s)
+# Returns: Name of the object and place at the specified time
+    
+ChatGPT Response: [ count_total_room_entries, bedroom ]
+
+Please select the appropriate choice and output only the choice.
+Format: Choice: {answer} (e.g., Choice: Yes, Choice: No, Choice: 5, Choice: GRAB, Choice: livingroom)
+
+Question: How many times did he enter the bedroom?
+Choices: [4, 5]
+Function: count_total_room_entries
+Function output: 3
+
+ChatGPT Response: [ Choice: 4 ]
+ChatGPT Answer: 4
+Correct Answer: 4
+Is the answer correct?: True
+question path: QA/MultiChoice/Q1/q1_answer_scene2_Day1_kitchen.json
+
+I will provide a question, choices, and functions.
+Select one function to answer the question and include the required arguments in your response.
+Format: function_name, arguments (e.g., count_total_room_entries, bedroom)
+
+Question: How many times did he enter the kitchen?
+Choices: [10, 11]
+Functions:
+- count_total_room_entries
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: Total number of entries into the room
+
+- count_action_occurrences
+# Parameters: action_name (close, grab, switchon, switchoff, turnto, ...)
+# Returns: Number of times the action was performed within each activity
+
+- get_first_action_in_room
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: First action performed after entering the room
+
+- get_last_action_before_entry
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: Last action performed before entering the room
+
+- get_action_at_time
+# Parameters: time (e.g., 1h-30m-15s)
+# Returns: Name of the object and place at the specified time
+    
+ChatGPT Response: [ count_total_room_entries, kitchen ]
+
+Please select the appropriate choice and output only the choice.
+Format: Choice: {answer} (e.g., Choice: Yes, Choice: No, Choice: 5, Choice: GRAB, Choice: livingroom)
+
+Question: How many times did he enter the kitchen?
+Choices: [10, 11]
+Function: count_total_room_entries
+Function output: 7
+
+ChatGPT Response: [ Choice: 11 ]
+ChatGPT Answer: 11
+Correct Answer: 10
+Is the answer correct?: False
+question path: QA/MultiChoice/Q1/q1_answer_scene2_Day1_livingroom.json
+
+I will provide a question, choices, and functions.
+Select one function to answer the question and include the required arguments in your response.
+Format: function_name, arguments (e.g., count_total_room_entries, bedroom)
+
+Question: How many times did he enter the livingroom?
+Choices: [6, 7]
+Functions:
+- count_total_room_entries
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: Total number of entries into the room
+
+- count_action_occurrences
+# Parameters: action_name (close, grab, switchon, switchoff, turnto, ...)
+# Returns: Number of times the action was performed within each activity
+
+- get_first_action_in_room
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: First action performed after entering the room
+
+- get_last_action_before_entry
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: Last action performed before entering the room
+
+- get_action_at_time
+# Parameters: time (e.g., 1h-30m-15s)
+# Returns: Name of the object and place at the specified time
+    
+ChatGPT Response: [ count_total_room_entries, livingroom ]
+
+Please select the appropriate choice and output only the choice.
+Format: Choice: {answer} (e.g., Choice: Yes, Choice: No, Choice: 5, Choice: GRAB, Choice: livingroom)
+
+Question: How many times did he enter the livingroom?
+Choices: [6, 7]
+Function: count_total_room_entries
+Function output: 6
+
+ChatGPT Response: [ Choice: 6 ]
+ChatGPT Answer: 6
+Correct Answer: 6
+Is the answer correct?: True
+success: 2
+failure: 1
+success rate: 0.6666666666666666
+results:
+path: QA/MultiChoice/Q1/q1_answer_scene2_Day1_bedroom.json, ChatGPT Answer: 4, Correct Answer: 4, answer==correct_answer: True, 
+path: QA/MultiChoice/Q1/q1_answer_scene2_Day1_kitchen.json, ChatGPT Answer: 11, Correct Answer: 10, answer==correct_answer: False, 
+path: QA/MultiChoice/Q1/q1_answer_scene2_Day1_livingroom.json, ChatGPT Answer: 6, Correct Answer: 6, answer==correct_answer: True, 
+Category: MultiChoice/Q2
+question path: QA/MultiChoice/Q2/q2_answer_scene2_Day1_close.json
+
+I will provide a question, choices, and functions.
+Select one function to answer the question and include the required arguments in your response.
+Format: function_name, arguments (e.g., count_total_room_entries, bedroom)
+
+Question: How many times did he close?
+Choices: [1, 2]
+Functions:
+- count_total_room_entries
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: Total number of entries into the room
+
+- count_action_occurrences
+# Parameters: action_name (close, grab, switchon, switchoff, turnto, ...)
+# Returns: Number of times the action was performed within each activity
+
+- get_first_action_in_room
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: First action performed after entering the room
+
+- get_last_action_before_entry
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: Last action performed before entering the room
+
+- get_action_at_time
+# Parameters: time (e.g., 1h-30m-15s)
+# Returns: Name of the object and place at the specified time
+    
+ChatGPT Response: [ count_action_occurrences, close ]
+
+Please select the appropriate choice and output only the choice.
+Format: Choice: {answer} (e.g., Choice: Yes, Choice: No, Choice: 5, Choice: GRAB, Choice: livingroom)
+
+Question: How many times did he close?
+Choices: [1, 2]
+Function: count_action_occurrences
+Function output: 1
+
+ChatGPT Response: [ Choice: 1 ]
+ChatGPT Answer: 1
+Correct Answer: 1
+Is the answer correct?: True
+question path: QA/MultiChoice/Q2/q2_answer_scene2_Day1_drink.json
+
+I will provide a question, choices, and functions.
+Select one function to answer the question and include the required arguments in your response.
+Format: function_name, arguments (e.g., count_total_room_entries, bedroom)
+
+Question: How many times did he drink?
+Choices: [7, 8]
+Functions:
+- count_total_room_entries
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: Total number of entries into the room
+
+- count_action_occurrences
+# Parameters: action_name (close, grab, switchon, switchoff, turnto, ...)
+# Returns: Number of times the action was performed within each activity
+
+- get_first_action_in_room
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: First action performed after entering the room
+
+- get_last_action_before_entry
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: Last action performed before entering the room
+
+- get_action_at_time
+# Parameters: time (e.g., 1h-30m-15s)
+# Returns: Name of the object and place at the specified time
+    
+ChatGPT Response: [ count_action_occurrences, drink ]
+
+Please select the appropriate choice and output only the choice.
+Format: Choice: {answer} (e.g., Choice: Yes, Choice: No, Choice: 5, Choice: GRAB, Choice: livingroom)
+
+Question: How many times did he drink?
+Choices: [7, 8]
+Function: count_action_occurrences
+Function output: 7
+
+ChatGPT Response: [ Choice: 7 ]
+ChatGPT Answer: 7
+Correct Answer: 7
+Is the answer correct?: True
+question path: QA/MultiChoice/Q2/q2_answer_scene2_Day1_fall.json
+
+I will provide a question, choices, and functions.
+Select one function to answer the question and include the required arguments in your response.
+Format: function_name, arguments (e.g., count_total_room_entries, bedroom)
+
+Question: How many times did he fall?
+Choices: [1, 2]
+Functions:
+- count_total_room_entries
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: Total number of entries into the room
+
+- count_action_occurrences
+# Parameters: action_name (close, grab, switchon, switchoff, turnto, ...)
+# Returns: Number of times the action was performed within each activity
+
+- get_first_action_in_room
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: First action performed after entering the room
+
+- get_last_action_before_entry
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: Last action performed before entering the room
+
+- get_action_at_time
+# Parameters: time (e.g., 1h-30m-15s)
+# Returns: Name of the object and place at the specified time
+    
+ChatGPT Response: [ count_action_occurrences, fall ]
+
+Please select the appropriate choice and output only the choice.
+Format: Choice: {answer} (e.g., Choice: Yes, Choice: No, Choice: 5, Choice: GRAB, Choice: livingroom)
+
+Question: How many times did he fall?
+Choices: [1, 2]
+Function: count_action_occurrences
+Function output: 1
+
+ChatGPT Response: [ Choice: 1 ]
+ChatGPT Answer: 1
+Correct Answer: 1
+Is the answer correct?: True
+question path: QA/MultiChoice/Q2/q2_answer_scene2_Day1_find.json
+
+I will provide a question, choices, and functions.
+Select one function to answer the question and include the required arguments in your response.
+Format: function_name, arguments (e.g., count_total_room_entries, bedroom)
+
+Question: How many times did he find?
+Choices: [1, 2]
+Functions:
+- count_total_room_entries
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: Total number of entries into the room
+
+- count_action_occurrences
+# Parameters: action_name (close, grab, switchon, switchoff, turnto, ...)
+# Returns: Number of times the action was performed within each activity
+
+- get_first_action_in_room
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: First action performed after entering the room
+
+- get_last_action_before_entry
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: Last action performed before entering the room
+
+- get_action_at_time
+# Parameters: time (e.g., 1h-30m-15s)
+# Returns: Name of the object and place at the specified time
+    
+ChatGPT Response: [ count_action_occurrences, find ]
+
+Please select the appropriate choice and output only the choice.
+Format: Choice: {answer} (e.g., Choice: Yes, Choice: No, Choice: 5, Choice: GRAB, Choice: livingroom)
+
+Question: How many times did he find?
+Choices: [1, 2]
+Function: count_action_occurrences
+Function output: 1
+
+ChatGPT Response: [ Choice: 1 ]
+ChatGPT Answer: 1
+Correct Answer: 1
+Is the answer correct?: True
+question path: QA/MultiChoice/Q2/q2_answer_scene2_Day1_grab.json
+
+I will provide a question, choices, and functions.
+Select one function to answer the question and include the required arguments in your response.
+Format: function_name, arguments (e.g., count_total_room_entries, bedroom)
+
+Question: How many times did he grab?
+Choices: [17, 18]
+Functions:
+- count_total_room_entries
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: Total number of entries into the room
+
+- count_action_occurrences
+# Parameters: action_name (close, grab, switchon, switchoff, turnto, ...)
+# Returns: Number of times the action was performed within each activity
+
+- get_first_action_in_room
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: First action performed after entering the room
+
+- get_last_action_before_entry
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: Last action performed before entering the room
+
+- get_action_at_time
+# Parameters: time (e.g., 1h-30m-15s)
+# Returns: Name of the object and place at the specified time
+    
+ChatGPT Response: [ count_action_occurrences, grab ]
+
+Please select the appropriate choice and output only the choice.
+Format: Choice: {answer} (e.g., Choice: Yes, Choice: No, Choice: 5, Choice: GRAB, Choice: livingroom)
+
+Question: How many times did he grab?
+Choices: [17, 18]
+Function: count_action_occurrences
+Function output: 17
+
+ChatGPT Response: [ Choice: 17 ]
+ChatGPT Answer: 17
+Correct Answer: 17
+Is the answer correct?: True
+question path: QA/MultiChoice/Q2/q2_answer_scene2_Day1_open.json
+
+I will provide a question, choices, and functions.
+Select one function to answer the question and include the required arguments in your response.
+Format: function_name, arguments (e.g., count_total_room_entries, bedroom)
+
+Question: How many times did he open?
+Choices: [1, 2]
+Functions:
+- count_total_room_entries
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: Total number of entries into the room
+
+- count_action_occurrences
+# Parameters: action_name (close, grab, switchon, switchoff, turnto, ...)
+# Returns: Number of times the action was performed within each activity
+
+- get_first_action_in_room
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: First action performed after entering the room
+
+- get_last_action_before_entry
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: Last action performed before entering the room
+
+- get_action_at_time
+# Parameters: time (e.g., 1h-30m-15s)
+# Returns: Name of the object and place at the specified time
+    
+ChatGPT Response: [ count_action_occurrences, open ]
+
+Please select the appropriate choice and output only the choice.
+Format: Choice: {answer} (e.g., Choice: Yes, Choice: No, Choice: 5, Choice: GRAB, Choice: livingroom)
+
+Question: How many times did he open?
+Choices: [1, 2]
+Function: count_action_occurrences
+Function output: 1
+
+ChatGPT Response: [ Choice: 1 ]
+ChatGPT Answer: 1
+Correct Answer: 1
+Is the answer correct?: True
+question path: QA/MultiChoice/Q2/q2_answer_scene2_Day1_pour.json
+
+I will provide a question, choices, and functions.
+Select one function to answer the question and include the required arguments in your response.
+Format: function_name, arguments (e.g., count_total_room_entries, bedroom)
+
+Question: How many times did he pour?
+Choices: [4, 5]
+Functions:
+- count_total_room_entries
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: Total number of entries into the room
+
+- count_action_occurrences
+# Parameters: action_name (close, grab, switchon, switchoff, turnto, ...)
+# Returns: Number of times the action was performed within each activity
+
+- get_first_action_in_room
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: First action performed after entering the room
+
+- get_last_action_before_entry
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: Last action performed before entering the room
+
+- get_action_at_time
+# Parameters: time (e.g., 1h-30m-15s)
+# Returns: Name of the object and place at the specified time
+    
+ChatGPT Response: [ count_action_occurrences, pour ]
+
+Please select the appropriate choice and output only the choice.
+Format: Choice: {answer} (e.g., Choice: Yes, Choice: No, Choice: 5, Choice: GRAB, Choice: livingroom)
+
+Question: How many times did he pour?
+Choices: [4, 5]
+Function: count_action_occurrences
+Function output: 4
+
+ChatGPT Response: [ Choice: 4 ]
+ChatGPT Answer: 4
+Correct Answer: 4
+Is the answer correct?: True
+question path: QA/MultiChoice/Q2/q2_answer_scene2_Day1_put.json
+
+I will provide a question, choices, and functions.
+Select one function to answer the question and include the required arguments in your response.
+Format: function_name, arguments (e.g., count_total_room_entries, bedroom)
+
+Question: How many times did he put?
+Choices: [10, 11]
+Functions:
+- count_total_room_entries
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: Total number of entries into the room
+
+- count_action_occurrences
+# Parameters: action_name (close, grab, switchon, switchoff, turnto, ...)
+# Returns: Number of times the action was performed within each activity
+
+- get_first_action_in_room
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: First action performed after entering the room
+
+- get_last_action_before_entry
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: Last action performed before entering the room
+
+- get_action_at_time
+# Parameters: time (e.g., 1h-30m-15s)
+# Returns: Name of the object and place at the specified time
+    
+ChatGPT Response: [ count_action_occurrences, put ]
+
+Please select the appropriate choice and output only the choice.
+Format: Choice: {answer} (e.g., Choice: Yes, Choice: No, Choice: 5, Choice: GRAB, Choice: livingroom)
+
+Question: How many times did he put?
+Choices: [10, 11]
+Function: count_action_occurrences
+Function output: 10
+
+ChatGPT Response: [ Choice: 10 ]
+ChatGPT Answer: 10
+Correct Answer: 10
+Is the answer correct?: True
+question path: QA/MultiChoice/Q2/q2_answer_scene2_Day1_sit.json
+
+I will provide a question, choices, and functions.
+Select one function to answer the question and include the required arguments in your response.
+Format: function_name, arguments (e.g., count_total_room_entries, bedroom)
+
+Question: How many times did he sit?
+Choices: [3, 4]
+Functions:
+- count_total_room_entries
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: Total number of entries into the room
+
+- count_action_occurrences
+# Parameters: action_name (close, grab, switchon, switchoff, turnto, ...)
+# Returns: Number of times the action was performed within each activity
+
+- get_first_action_in_room
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: First action performed after entering the room
+
+- get_last_action_before_entry
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: Last action performed before entering the room
+
+- get_action_at_time
+# Parameters: time (e.g., 1h-30m-15s)
+# Returns: Name of the object and place at the specified time
+    
+ChatGPT Response: [ count_action_occurrences, sit ]
+
+Please select the appropriate choice and output only the choice.
+Format: Choice: {answer} (e.g., Choice: Yes, Choice: No, Choice: 5, Choice: GRAB, Choice: livingroom)
+
+Question: How many times did he sit?
+Choices: [3, 4]
+Function: count_action_occurrences
+Function output: 3
+
+ChatGPT Response: [ Choice: 3 ]
+ChatGPT Answer: 3
+Correct Answer: 3
+Is the answer correct?: True
+question path: QA/MultiChoice/Q2/q2_answer_scene2_Day1_stand.json
+
+I will provide a question, choices, and functions.
+Select one function to answer the question and include the required arguments in your response.
+Format: function_name, arguments (e.g., count_total_room_entries, bedroom)
+
+Question: How many times did he stand?
+Choices: [2, 3]
+Functions:
+- count_total_room_entries
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: Total number of entries into the room
+
+- count_action_occurrences
+# Parameters: action_name (close, grab, switchon, switchoff, turnto, ...)
+# Returns: Number of times the action was performed within each activity
+
+- get_first_action_in_room
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: First action performed after entering the room
+
+- get_last_action_before_entry
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: Last action performed before entering the room
+
+- get_action_at_time
+# Parameters: time (e.g., 1h-30m-15s)
+# Returns: Name of the object and place at the specified time
+    
+ChatGPT Response: [ count_action_occurrences, stand ]
+
+Please select the appropriate choice and output only the choice.
+Format: Choice: {answer} (e.g., Choice: Yes, Choice: No, Choice: 5, Choice: GRAB, Choice: livingroom)
+
+Question: How many times did he stand?
+Choices: [2, 3]
+Function: count_action_occurrences
+Function output: 2
+
+ChatGPT Response: [ Choice: 2 ]
+ChatGPT Answer: 2
+Correct Answer: 2
+Is the answer correct?: True
+question path: QA/MultiChoice/Q2/q2_answer_scene2_Day1_switchOff.json
+
+I will provide a question, choices, and functions.
+Select one function to answer the question and include the required arguments in your response.
+Format: function_name, arguments (e.g., count_total_room_entries, bedroom)
+
+Question: How many times did he switchOff?
+Choices: [2, 3]
+Functions:
+- count_total_room_entries
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: Total number of entries into the room
+
+- count_action_occurrences
+# Parameters: action_name (close, grab, switchon, switchoff, turnto, ...)
+# Returns: Number of times the action was performed within each activity
+
+- get_first_action_in_room
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: First action performed after entering the room
+
+- get_last_action_before_entry
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: Last action performed before entering the room
+
+- get_action_at_time
+# Parameters: time (e.g., 1h-30m-15s)
+# Returns: Name of the object and place at the specified time
+    
+ChatGPT Response: [ count_action_occurrences, switchoff ]
+
+Please select the appropriate choice and output only the choice.
+Format: Choice: {answer} (e.g., Choice: Yes, Choice: No, Choice: 5, Choice: GRAB, Choice: livingroom)
+
+Question: How many times did he switchOff?
+Choices: [2, 3]
+Function: count_action_occurrences
+Function output: 2
+
+ChatGPT Response: [ Choice: 2 ]
+ChatGPT Answer: 2
+Correct Answer: 2
+Is the answer correct?: True
+question path: QA/MultiChoice/Q2/q2_answer_scene2_Day1_switchOn.json
+
+I will provide a question, choices, and functions.
+Select one function to answer the question and include the required arguments in your response.
+Format: function_name, arguments (e.g., count_total_room_entries, bedroom)
+
+Question: How many times did he switchOn?
+Choices: [1, 2]
+Functions:
+- count_total_room_entries
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: Total number of entries into the room
+
+- count_action_occurrences
+# Parameters: action_name (close, grab, switchon, switchoff, turnto, ...)
+# Returns: Number of times the action was performed within each activity
+
+- get_first_action_in_room
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: First action performed after entering the room
+
+- get_last_action_before_entry
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: Last action performed before entering the room
+
+- get_action_at_time
+# Parameters: time (e.g., 1h-30m-15s)
+# Returns: Name of the object and place at the specified time
+    
+ChatGPT Response: [ count_action_occurrences, switchon ]
+
+Please select the appropriate choice and output only the choice.
+Format: Choice: {answer} (e.g., Choice: Yes, Choice: No, Choice: 5, Choice: GRAB, Choice: livingroom)
+
+Question: How many times did he switchOn?
+Choices: [1, 2]
+Function: count_action_occurrences
+Function output: 1
+
+ChatGPT Response: [ Choice: 1 ]
+ChatGPT Answer: 1
+Correct Answer: 1
+Is the answer correct?: True
+question path: QA/MultiChoice/Q2/q2_answer_scene2_Day1_text.json
+
+I will provide a question, choices, and functions.
+Select one function to answer the question and include the required arguments in your response.
+Format: function_name, arguments (e.g., count_total_room_entries, bedroom)
+
+Question: How many times did he text?
+Choices: [2, 3]
+Functions:
+- count_total_room_entries
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: Total number of entries into the room
+
+- count_action_occurrences
+# Parameters: action_name (close, grab, switchon, switchoff, turnto, ...)
+# Returns: Number of times the action was performed within each activity
+
+- get_first_action_in_room
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: First action performed after entering the room
+
+- get_last_action_before_entry
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: Last action performed before entering the room
+
+- get_action_at_time
+# Parameters: time (e.g., 1h-30m-15s)
+# Returns: Name of the object and place at the specified time
+    
+ChatGPT Response: [ count_action_occurrences, text ]
+
+Please select the appropriate choice and output only the choice.
+Format: Choice: {answer} (e.g., Choice: Yes, Choice: No, Choice: 5, Choice: GRAB, Choice: livingroom)
+
+Question: How many times did he text?
+Choices: [2, 3]
+Function: count_action_occurrences
+Function output: 2
+
+ChatGPT Response: [ Choice: 2 ]
+ChatGPT Answer: 2
+Correct Answer: 2
+Is the answer correct?: True
+question path: QA/MultiChoice/Q2/q2_answer_scene2_Day1_turnTo.json
+
+I will provide a question, choices, and functions.
+Select one function to answer the question and include the required arguments in your response.
+Format: function_name, arguments (e.g., count_total_room_entries, bedroom)
+
+Question: How many times did he turnTo?
+Choices: [1, 2]
+Functions:
+- count_total_room_entries
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: Total number of entries into the room
+
+- count_action_occurrences
+# Parameters: action_name (close, grab, switchon, switchoff, turnto, ...)
+# Returns: Number of times the action was performed within each activity
+
+- get_first_action_in_room
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: First action performed after entering the room
+
+- get_last_action_before_entry
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: Last action performed before entering the room
+
+- get_action_at_time
+# Parameters: time (e.g., 1h-30m-15s)
+# Returns: Name of the object and place at the specified time
+    
+ChatGPT Response: [ count_action_occurrences, turnto ]
+
+Please select the appropriate choice and output only the choice.
+Format: Choice: {answer} (e.g., Choice: Yes, Choice: No, Choice: 5, Choice: GRAB, Choice: livingroom)
+
+Question: How many times did he turnTo?
+Choices: [1, 2]
+Function: count_action_occurrences
+Function output: 1
+
+ChatGPT Response: [ Choice: 1 ]
+ChatGPT Answer: 1
+Correct Answer: 1
+Is the answer correct?: True
+question path: QA/MultiChoice/Q2/q2_answer_scene2_Day1_walk.json
+
+I will provide a question, choices, and functions.
+Select one function to answer the question and include the required arguments in your response.
+Format: function_name, arguments (e.g., count_total_room_entries, bedroom)
+
+Question: How many times did he walk?
+Choices: [43, 44]
+Functions:
+- count_total_room_entries
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: Total number of entries into the room
+
+- count_action_occurrences
+# Parameters: action_name (close, grab, switchon, switchoff, turnto, ...)
+# Returns: Number of times the action was performed within each activity
+
+- get_first_action_in_room
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: First action performed after entering the room
+
+- get_last_action_before_entry
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: Last action performed before entering the room
+
+- get_action_at_time
+# Parameters: time (e.g., 1h-30m-15s)
+# Returns: Name of the object and place at the specified time
+    
+ChatGPT Response: [ count_action_occurrences, walk ]
+
+Please select the appropriate choice and output only the choice.
+Format: Choice: {answer} (e.g., Choice: Yes, Choice: No, Choice: 5, Choice: GRAB, Choice: livingroom)
+
+Question: How many times did he walk?
+Choices: [43, 44]
+Function: count_action_occurrences
+Function output: 47
+
+ChatGPT Response: [ Choice: 44 ]
+ChatGPT Answer: 44
+Correct Answer: 43
+Is the answer correct?: False
+question path: QA/MultiChoice/Q2/q2_answer_scene2_Day1_wipe.json
+
+I will provide a question, choices, and functions.
+Select one function to answer the question and include the required arguments in your response.
+Format: function_name, arguments (e.g., count_total_room_entries, bedroom)
+
+Question: How many times did he wipe?
+Choices: [1, 2]
+Functions:
+- count_total_room_entries
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: Total number of entries into the room
+
+- count_action_occurrences
+# Parameters: action_name (close, grab, switchon, switchoff, turnto, ...)
+# Returns: Number of times the action was performed within each activity
+
+- get_first_action_in_room
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: First action performed after entering the room
+
+- get_last_action_before_entry
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: Last action performed before entering the room
+
+- get_action_at_time
+# Parameters: time (e.g., 1h-30m-15s)
+# Returns: Name of the object and place at the specified time
+    
+ChatGPT Response: [ count_action_occurrences, wipe ]
+
+Please select the appropriate choice and output only the choice.
+Format: Choice: {answer} (e.g., Choice: Yes, Choice: No, Choice: 5, Choice: GRAB, Choice: livingroom)
+
+Question: How many times did he wipe?
+Choices: [1, 2]
+Function: count_action_occurrences
+Function output: 1
+
+ChatGPT Response: [ Choice: 1 ]
+ChatGPT Answer: 1
+Correct Answer: 1
+Is the answer correct?: True
+success: 15
+failure: 1
+success rate: 0.9375
+results:
+path: QA/MultiChoice/Q2/q2_answer_scene2_Day1_close.json, ChatGPT Answer: 1, Correct Answer: 1, answer==correct_answer: True, 
+path: QA/MultiChoice/Q2/q2_answer_scene2_Day1_drink.json, ChatGPT Answer: 7, Correct Answer: 7, answer==correct_answer: True, 
+path: QA/MultiChoice/Q2/q2_answer_scene2_Day1_fall.json, ChatGPT Answer: 1, Correct Answer: 1, answer==correct_answer: True, 
+path: QA/MultiChoice/Q2/q2_answer_scene2_Day1_find.json, ChatGPT Answer: 1, Correct Answer: 1, answer==correct_answer: True, 
+path: QA/MultiChoice/Q2/q2_answer_scene2_Day1_grab.json, ChatGPT Answer: 17, Correct Answer: 17, answer==correct_answer: True, 
+path: QA/MultiChoice/Q2/q2_answer_scene2_Day1_open.json, ChatGPT Answer: 1, Correct Answer: 1, answer==correct_answer: True, 
+path: QA/MultiChoice/Q2/q2_answer_scene2_Day1_pour.json, ChatGPT Answer: 4, Correct Answer: 4, answer==correct_answer: True, 
+path: QA/MultiChoice/Q2/q2_answer_scene2_Day1_put.json, ChatGPT Answer: 10, Correct Answer: 10, answer==correct_answer: True, 
+path: QA/MultiChoice/Q2/q2_answer_scene2_Day1_sit.json, ChatGPT Answer: 3, Correct Answer: 3, answer==correct_answer: True, 
+path: QA/MultiChoice/Q2/q2_answer_scene2_Day1_stand.json, ChatGPT Answer: 2, Correct Answer: 2, answer==correct_answer: True, 
+path: QA/MultiChoice/Q2/q2_answer_scene2_Day1_switchOff.json, ChatGPT Answer: 2, Correct Answer: 2, answer==correct_answer: True, 
+path: QA/MultiChoice/Q2/q2_answer_scene2_Day1_switchOn.json, ChatGPT Answer: 1, Correct Answer: 1, answer==correct_answer: True, 
+path: QA/MultiChoice/Q2/q2_answer_scene2_Day1_text.json, ChatGPT Answer: 2, Correct Answer: 2, answer==correct_answer: True, 
+path: QA/MultiChoice/Q2/q2_answer_scene2_Day1_turnTo.json, ChatGPT Answer: 1, Correct Answer: 1, answer==correct_answer: True, 
+path: QA/MultiChoice/Q2/q2_answer_scene2_Day1_walk.json, ChatGPT Answer: 44, Correct Answer: 43, answer==correct_answer: False, 
+path: QA/MultiChoice/Q2/q2_answer_scene2_Day1_wipe.json, ChatGPT Answer: 1, Correct Answer: 1, answer==correct_answer: True, 
+Category: MultiChoice/Q3
+question path: QA/MultiChoice/Q3/q3_answer_scene2_Day1.json
+
+I will provide a question, choices, and functions.
+Select one function to answer the question and include the required arguments in your response.
+Format: function_name, arguments (e.g., count_total_room_entries, bedroom)
+
+Question: What did he do after he first entered the kitchen?
+Choices: ['SIT', 'READ']
+Functions:
+- count_total_room_entries
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: Total number of entries into the room
+
+- count_action_occurrences
+# Parameters: action_name (close, grab, switchon, switchoff, turnto, ...)
+# Returns: Number of times the action was performed within each activity
+
+- get_first_action_in_room
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: First action performed after entering the room
+
+- get_last_action_before_entry
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: Last action performed before entering the room
+
+- get_action_at_time
+# Parameters: time (e.g., 1h-30m-15s)
+# Returns: Name of the object and place at the specified time
+    
+ChatGPT Response: [ get_first_action_in_room, kitchen ]
+
+Please select the appropriate choice and output only the choice.
+Format: Choice: {answer} (e.g., Choice: Yes, Choice: No, Choice: 5, Choice: GRAB, Choice: livingroom)
+
+Question: What did he do after he first entered the kitchen?
+Choices: ['SIT', 'READ']
+Function: get_first_action_in_room
+Function output: ['walk', 'sit']
+
+ChatGPT Response: [ Choice: SIT ]
+ChatGPT Answer: SIT
+Correct Answer: SIT
+Is the answer correct?: True
+success: 1
+failure: 0
+success rate: 1.0
+results:
+path: QA/MultiChoice/Q3/q3_answer_scene2_Day1.json, ChatGPT Answer: SIT, Correct Answer: SIT, answer==correct_answer: True, 
+Category: MultiChoice/Q4
+question path: QA/MultiChoice/Q4/q4_answer_scene2_Day1.json
+
+I will provide a question, choices, and functions.
+Select one function to answer the question and include the required arguments in your response.
+Format: function_name, arguments (e.g., count_total_room_entries, bedroom)
+
+Question: What did he do just before he first entered the kitchen?
+Choices: ['WALK', 'READ']
+Functions:
+- count_total_room_entries
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: Total number of entries into the room
+
+- count_action_occurrences
+# Parameters: action_name (close, grab, switchon, switchoff, turnto, ...)
+# Returns: Number of times the action was performed within each activity
+
+- get_first_action_in_room
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: First action performed after entering the room
+
+- get_last_action_before_entry
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: Last action performed before entering the room
+
+- get_action_at_time
+# Parameters: time (e.g., 1h-30m-15s)
+# Returns: Name of the object and place at the specified time
+    
+ChatGPT Response: [ get_last_action_before_entry, kitchen ]
+
+Please select the appropriate choice and output only the choice.
+Format: Choice: {answer} (e.g., Choice: Yes, Choice: No, Choice: 5, Choice: GRAB, Choice: livingroom)
+
+Question: What did he do just before he first entered the kitchen?
+Choices: ['WALK', 'READ']
+Function: get_last_action_before_entry
+Function output: ['walk', 'grab']
+
+ChatGPT Response: [ Choice: WALK ]
+ChatGPT Answer: WALK
+Correct Answer: WALK
+Is the answer correct?: True
+success: 1
+failure: 0
+success rate: 1.0
+results:
+path: QA/MultiChoice/Q4/q4_answer_scene2_Day1.json, ChatGPT Answer: WALK, Correct Answer: WALK, answer==correct_answer: True, 
+Category: MultiChoice/Q5
+question path: QA/MultiChoice/Q5/q5_answer_scene2_Day1_location0.json
+
+I will provide a question, choices, and functions.
+Select one function to answer the question and include the required arguments in your response.
+Format: function_name, arguments (e.g., count_total_room_entries, bedroom)
+
+Question: Where is he at 00h-00m-31s from the beginning?
+Choices: ['livingroom', 'bathroom', 'kitchin', 'bedroom']
+Functions:
+- count_total_room_entries
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: Total number of entries into the room
+
+- count_action_occurrences
+# Parameters: action_name (close, grab, switchon, switchoff, turnto, ...)
+# Returns: Number of times the action was performed within each activity
+
+- get_first_action_in_room
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: First action performed after entering the room
+
+- get_last_action_before_entry
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: Last action performed before entering the room
+
+- get_action_at_time
+# Parameters: time (e.g., 1h-30m-15s)
+# Returns: Name of the object and place at the specified time
+    
+ChatGPT Response: [ get_action_at_time, 00h-00m-31s ]
+
+Please select the appropriate choice and output only the choice.
+Format: Choice: {answer} (e.g., Choice: Yes, Choice: No, Choice: 5, Choice: GRAB, Choice: livingroom)
+
+Question: Where is he at 00h-00m-31s from the beginning?
+Choices: ['livingroom', 'bathroom', 'kitchin', 'bedroom']
+Function: get_action_at_time
+Function output: {'action': 'walk', 'target_object': 'bed', 'place': 'bedroom'}
+
+ChatGPT Response: [ Choice: bedroom ]
+ChatGPT Answer: bedroom
+Correct Answer: livingroom
+Is the answer correct?: False
+question path: QA/MultiChoice/Q5/q5_answer_scene2_Day1_location1.json
+
+I will provide a question, choices, and functions.
+Select one function to answer the question and include the required arguments in your response.
+Format: function_name, arguments (e.g., count_total_room_entries, bedroom)
+
+Question: Where is he at 00h-01m-41s from the beginning?
+Choices: ['livingroom', 'bathroom', 'kitchin', 'bedroom']
+Functions:
+- count_total_room_entries
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: Total number of entries into the room
+
+- count_action_occurrences
+# Parameters: action_name (close, grab, switchon, switchoff, turnto, ...)
+# Returns: Number of times the action was performed within each activity
+
+- get_first_action_in_room
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: First action performed after entering the room
+
+- get_last_action_before_entry
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: Last action performed before entering the room
+
+- get_action_at_time
+# Parameters: time (e.g., 1h-30m-15s)
+# Returns: Name of the object and place at the specified time
+    
+ChatGPT Response: [ get_action_at_time, 0h-01m-41s ]
+
+Please select the appropriate choice and output only the choice.
+Format: Choice: {answer} (e.g., Choice: Yes, Choice: No, Choice: 5, Choice: GRAB, Choice: livingroom)
+
+Question: Where is he at 00h-01m-41s from the beginning?
+Choices: ['livingroom', 'bathroom', 'kitchin', 'bedroom']
+Function: get_action_at_time
+Function output: {'action': 'text', 'target_object': 'cellphone', 'place': 'livingroom'}
+
+ChatGPT Response: [ Choice: livingroom ]
+ChatGPT Answer: livingroom
+Correct Answer: livingroom
+Is the answer correct?: True
+question path: QA/MultiChoice/Q5/q5_answer_scene2_Day1_location10.json
+
+I will provide a question, choices, and functions.
+Select one function to answer the question and include the required arguments in your response.
+Format: function_name, arguments (e.g., count_total_room_entries, bedroom)
+
+Question: Where is he at 00h-06m-02s from the beginning?
+Choices: ['livingroom', 'bathroom', 'kitchin', 'bedroom']
+Functions:
+- count_total_room_entries
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: Total number of entries into the room
+
+- count_action_occurrences
+# Parameters: action_name (close, grab, switchon, switchoff, turnto, ...)
+# Returns: Number of times the action was performed within each activity
+
+- get_first_action_in_room
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: First action performed after entering the room
+
+- get_last_action_before_entry
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: Last action performed before entering the room
+
+- get_action_at_time
+# Parameters: time (e.g., 1h-30m-15s)
+# Returns: Name of the object and place at the specified time
+    
+ChatGPT Response: [ get_action_at_time, 00h-06m-02s ]
+
+Please select the appropriate choice and output only the choice.
+Format: Choice: {answer} (e.g., Choice: Yes, Choice: No, Choice: 5, Choice: GRAB, Choice: livingroom)
+
+Question: Where is he at 00h-06m-02s from the beginning?
+Choices: ['livingroom', 'bathroom', 'kitchin', 'bedroom']
+Function: get_action_at_time
+Function output: {'action': 'switchoff', 'target_object': 'lightswitch', 'place': 'kitchen'}
+
+ChatGPT Response: [ Choice: kitchin ]
+ChatGPT Answer: kitchin
+Correct Answer: None
+Is the answer correct?: False
+question path: QA/MultiChoice/Q5/q5_answer_scene2_Day1_location11.json
+
+I will provide a question, choices, and functions.
+Select one function to answer the question and include the required arguments in your response.
+Format: function_name, arguments (e.g., count_total_room_entries, bedroom)
+
+Question: Where is he at 00h-06m-29s from the beginning?
+Choices: ['livingroom', 'bathroom', 'kitchin', 'bedroom']
+Functions:
+- count_total_room_entries
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: Total number of entries into the room
+
+- count_action_occurrences
+# Parameters: action_name (close, grab, switchon, switchoff, turnto, ...)
+# Returns: Number of times the action was performed within each activity
+
+- get_first_action_in_room
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: First action performed after entering the room
+
+- get_last_action_before_entry
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: Last action performed before entering the room
+
+- get_action_at_time
+# Parameters: time (e.g., 1h-30m-15s)
+# Returns: Name of the object and place at the specified time
+    
+ChatGPT Response: [ get_action_at_time, 00h-06m-29s ]
+
+Please select the appropriate choice and output only the choice.
+Format: Choice: {answer} (e.g., Choice: Yes, Choice: No, Choice: 5, Choice: GRAB, Choice: livingroom)
+
+Question: Where is he at 00h-06m-29s from the beginning?
+Choices: ['livingroom', 'bathroom', 'kitchin', 'bedroom']
+Function: get_action_at_time
+Function output: {'action': 'walk', 'target_object': 'dishbowl', 'place': 'kitchen'}
+
+ChatGPT Response: [ Choice: kitchin ]
+ChatGPT Answer: kitchin
+Correct Answer: None
+Is the answer correct?: False
+question path: QA/MultiChoice/Q5/q5_answer_scene2_Day1_location12.json
+
+I will provide a question, choices, and functions.
+Select one function to answer the question and include the required arguments in your response.
+Format: function_name, arguments (e.g., count_total_room_entries, bedroom)
+
+Question: Where is he at 00h-07m-15s from the beginning?
+Choices: ['livingroom', 'bathroom', 'kitchin', 'bedroom']
+Functions:
+- count_total_room_entries
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: Total number of entries into the room
+
+- count_action_occurrences
+# Parameters: action_name (close, grab, switchon, switchoff, turnto, ...)
+# Returns: Number of times the action was performed within each activity
+
+- get_first_action_in_room
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: First action performed after entering the room
+
+- get_last_action_before_entry
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: Last action performed before entering the room
+
+- get_action_at_time
+# Parameters: time (e.g., 1h-30m-15s)
+# Returns: Name of the object and place at the specified time
+    
+ChatGPT Response: [ get_action_at_time, 00h-07m-15s ]
+
+Please select the appropriate choice and output only the choice.
+Format: Choice: {answer} (e.g., Choice: Yes, Choice: No, Choice: 5, Choice: GRAB, Choice: livingroom)
+
+Question: Where is he at 00h-07m-15s from the beginning?
+Choices: ['livingroom', 'bathroom', 'kitchin', 'bedroom']
+Function: get_action_at_time
+Function output: {'action': 'pour', 'target_object': 'cereal', 'place': 'kitchen'}
+
+ChatGPT Response: [ Choice: kitchin ]
+ChatGPT Answer: kitchin
+Correct Answer: None
+Is the answer correct?: False
+question path: QA/MultiChoice/Q5/q5_answer_scene2_Day1_location13.json
+
+I will provide a question, choices, and functions.
+Select one function to answer the question and include the required arguments in your response.
+Format: function_name, arguments (e.g., count_total_room_entries, bedroom)
+
+Question: Where is he at 00h-07m-50s from the beginning?
+Choices: ['livingroom', 'bathroom', 'kitchin', 'bedroom']
+Functions:
+- count_total_room_entries
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: Total number of entries into the room
+
+- count_action_occurrences
+# Parameters: action_name (close, grab, switchon, switchoff, turnto, ...)
+# Returns: Number of times the action was performed within each activity
+
+- get_first_action_in_room
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: First action performed after entering the room
+
+- get_last_action_before_entry
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: Last action performed before entering the room
+
+- get_action_at_time
+# Parameters: time (e.g., 1h-30m-15s)
+# Returns: Name of the object and place at the specified time
+    
+ChatGPT Response: [ get_action_at_time, 00h-07m-50s ]
+
+Please select the appropriate choice and output only the choice.
+Format: Choice: {answer} (e.g., Choice: Yes, Choice: No, Choice: 5, Choice: GRAB, Choice: livingroom)
+
+Question: Where is he at 00h-07m-50s from the beginning?
+Choices: ['livingroom', 'bathroom', 'kitchin', 'bedroom']
+Function: get_action_at_time
+Function output: {'action': 'pour', 'target_object': 'milk', 'place': 'kitchen'}
+
+ChatGPT Response: [ Choice: kitchin ]
+ChatGPT Answer: kitchin
+Correct Answer: None
+Is the answer correct?: False
+question path: QA/MultiChoice/Q5/q5_answer_scene2_Day1_location14.json
+
+I will provide a question, choices, and functions.
+Select one function to answer the question and include the required arguments in your response.
+Format: function_name, arguments (e.g., count_total_room_entries, bedroom)
+
+Question: Where is he at 00h-08m-11s from the beginning?
+Choices: ['livingroom', 'bathroom', 'kitchin', 'bedroom']
+Functions:
+- count_total_room_entries
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: Total number of entries into the room
+
+- count_action_occurrences
+# Parameters: action_name (close, grab, switchon, switchoff, turnto, ...)
+# Returns: Number of times the action was performed within each activity
+
+- get_first_action_in_room
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: First action performed after entering the room
+
+- get_last_action_before_entry
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: Last action performed before entering the room
+
+- get_action_at_time
+# Parameters: time (e.g., 1h-30m-15s)
+# Returns: Name of the object and place at the specified time
+    
+ChatGPT Response: [ get_action_at_time, 00h-08m-11s ]
+
+Please select the appropriate choice and output only the choice.
+Format: Choice: {answer} (e.g., Choice: Yes, Choice: No, Choice: 5, Choice: GRAB, Choice: livingroom)
+
+Question: Where is he at 00h-08m-11s from the beginning?
+Choices: ['livingroom', 'bathroom', 'kitchin', 'bedroom']
+Function: get_action_at_time
+Function output: {'action': 'walk', 'target_object': 'kitchentable', 'place': 'kitchen'}
+
+ChatGPT Response: [ Choice: kitchin ]
+ChatGPT Answer: kitchin
+Correct Answer: None
+Is the answer correct?: False
+question path: QA/MultiChoice/Q5/q5_answer_scene2_Day1_location15.json
+
+I will provide a question, choices, and functions.
+Select one function to answer the question and include the required arguments in your response.
+Format: function_name, arguments (e.g., count_total_room_entries, bedroom)
+
+Question: Where is he at 00h-08m-49s from the beginning?
+Choices: ['livingroom', 'bathroom', 'kitchin', 'bedroom']
+Functions:
+- count_total_room_entries
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: Total number of entries into the room
+
+- count_action_occurrences
+# Parameters: action_name (close, grab, switchon, switchoff, turnto, ...)
+# Returns: Number of times the action was performed within each activity
+
+- get_first_action_in_room
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: First action performed after entering the room
+
+- get_last_action_before_entry
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: Last action performed before entering the room
+
+- get_action_at_time
+# Parameters: time (e.g., 1h-30m-15s)
+# Returns: Name of the object and place at the specified time
+    
+ChatGPT Response: [ get_action_at_time, 00h-08m-49s ]
+
+Please select the appropriate choice and output only the choice.
+Format: Choice: {answer} (e.g., Choice: Yes, Choice: No, Choice: 5, Choice: GRAB, Choice: livingroom)
+
+Question: Where is he at 00h-08m-49s from the beginning?
+Choices: ['livingroom', 'bathroom', 'kitchin', 'bedroom']
+Function: get_action_at_time
+Function output: {'action': 'grab', 'target_object': 'waterglass', 'place': 'kitchen'}
+
+ChatGPT Response: [ Choice: kitchin ]
+ChatGPT Answer: kitchin
+Correct Answer: None
+Is the answer correct?: False
+question path: QA/MultiChoice/Q5/q5_answer_scene2_Day1_location16.json
+
+I will provide a question, choices, and functions.
+Select one function to answer the question and include the required arguments in your response.
+Format: function_name, arguments (e.g., count_total_room_entries, bedroom)
+
+Question: Where is he at 00h-09m-03s from the beginning?
+Choices: ['livingroom', 'bathroom', 'kitchin', 'bedroom']
+Functions:
+- count_total_room_entries
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: Total number of entries into the room
+
+- count_action_occurrences
+# Parameters: action_name (close, grab, switchon, switchoff, turnto, ...)
+# Returns: Number of times the action was performed within each activity
+
+- get_first_action_in_room
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: First action performed after entering the room
+
+- get_last_action_before_entry
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: Last action performed before entering the room
+
+- get_action_at_time
+# Parameters: time (e.g., 1h-30m-15s)
+# Returns: Name of the object and place at the specified time
+    
+ChatGPT Response: [ get_action_at_time, 00h-09m-03s ]
+
+Please select the appropriate choice and output only the choice.
+Format: Choice: {answer} (e.g., Choice: Yes, Choice: No, Choice: 5, Choice: GRAB, Choice: livingroom)
+
+Question: Where is he at 00h-09m-03s from the beginning?
+Choices: ['livingroom', 'bathroom', 'kitchin', 'bedroom']
+Function: get_action_at_time
+Function output: {'action': 'put', 'target_object': 'waterglass', 'place': 'kitchen'}
+
+ChatGPT Response: [ Choice: kitchin ]
+ChatGPT Answer: kitchin
+Correct Answer: None
+Is the answer correct?: False
+question path: QA/MultiChoice/Q5/q5_answer_scene2_Day1_location2.json
+
+I will provide a question, choices, and functions.
+Select one function to answer the question and include the required arguments in your response.
+Format: function_name, arguments (e.g., count_total_room_entries, bedroom)
+
+Question: Where is he at 00h-01m-49s from the beginning?
+Choices: ['livingroom', 'bathroom', 'kitchin', 'bedroom']
+Functions:
+- count_total_room_entries
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: Total number of entries into the room
+
+- count_action_occurrences
+# Parameters: action_name (close, grab, switchon, switchoff, turnto, ...)
+# Returns: Number of times the action was performed within each activity
+
+- get_first_action_in_room
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: First action performed after entering the room
+
+- get_last_action_before_entry
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: Last action performed before entering the room
+
+- get_action_at_time
+# Parameters: time (e.g., 1h-30m-15s)
+# Returns: Name of the object and place at the specified time
+    
+ChatGPT Response: [ get_action_at_time, 0h-1m-49s ]
+
+Please select the appropriate choice and output only the choice.
+Format: Choice: {answer} (e.g., Choice: Yes, Choice: No, Choice: 5, Choice: GRAB, Choice: livingroom)
+
+Question: Where is he at 00h-01m-49s from the beginning?
+Choices: ['livingroom', 'bathroom', 'kitchin', 'bedroom']
+Function: get_action_at_time
+Function output: {'action': 'walk', 'target_object': 'tv', 'place': 'livingroom'}
+
+ChatGPT Response: [ Choice: livingroom ]
+ChatGPT Answer: livingroom
+Correct Answer: None
+Is the answer correct?: False
+question path: QA/MultiChoice/Q5/q5_answer_scene2_Day1_location3.json
+
+I will provide a question, choices, and functions.
+Select one function to answer the question and include the required arguments in your response.
+Format: function_name, arguments (e.g., count_total_room_entries, bedroom)
+
+Question: Where is he at 00h-02m-18s from the beginning?
+Choices: ['livingroom', 'bathroom', 'kitchin', 'bedroom']
+Functions:
+- count_total_room_entries
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: Total number of entries into the room
+
+- count_action_occurrences
+# Parameters: action_name (close, grab, switchon, switchoff, turnto, ...)
+# Returns: Number of times the action was performed within each activity
+
+- get_first_action_in_room
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: First action performed after entering the room
+
+- get_last_action_before_entry
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: Last action performed before entering the room
+
+- get_action_at_time
+# Parameters: time (e.g., 1h-30m-15s)
+# Returns: Name of the object and place at the specified time
+    
+ChatGPT Response: [ get_action_at_time, 00h-02m-18s ]
+
+Please select the appropriate choice and output only the choice.
+Format: Choice: {answer} (e.g., Choice: Yes, Choice: No, Choice: 5, Choice: GRAB, Choice: livingroom)
+
+Question: Where is he at 00h-02m-18s from the beginning?
+Choices: ['livingroom', 'bathroom', 'kitchin', 'bedroom']
+Function: get_action_at_time
+Function output: {'action': 'walk', 'target_object': 'milk', 'place': 'kitchen'}
+
+ChatGPT Response: [ Choice: kitchin ]
+ChatGPT Answer: kitchin
+Correct Answer: None
+Is the answer correct?: False
+question path: QA/MultiChoice/Q5/q5_answer_scene2_Day1_location4.json
+
+I will provide a question, choices, and functions.
+Select one function to answer the question and include the required arguments in your response.
+Format: function_name, arguments (e.g., count_total_room_entries, bedroom)
+
+Question: Where is he at 00h-03m-04s from the beginning?
+Choices: ['livingroom', 'bathroom', 'kitchin', 'bedroom']
+Functions:
+- count_total_room_entries
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: Total number of entries into the room
+
+- count_action_occurrences
+# Parameters: action_name (close, grab, switchon, switchoff, turnto, ...)
+# Returns: Number of times the action was performed within each activity
+
+- get_first_action_in_room
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: First action performed after entering the room
+
+- get_last_action_before_entry
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: Last action performed before entering the room
+
+- get_action_at_time
+# Parameters: time (e.g., 1h-30m-15s)
+# Returns: Name of the object and place at the specified time
+    
+ChatGPT Response: [ get_action_at_time, 00h-03m-04s ]
+
+Please select the appropriate choice and output only the choice.
+Format: Choice: {answer} (e.g., Choice: Yes, Choice: No, Choice: 5, Choice: GRAB, Choice: livingroom)
+
+Question: Where is he at 00h-03m-04s from the beginning?
+Choices: ['livingroom', 'bathroom', 'kitchin', 'bedroom']
+Function: get_action_at_time
+Function output: {'action': 'stand', 'target_object': None, 'place': 'livingroom'}
+
+ChatGPT Response: [ Choice: livingroom ]
+ChatGPT Answer: livingroom
+Correct Answer: None
+Is the answer correct?: False
+question path: QA/MultiChoice/Q5/q5_answer_scene2_Day1_location5.json
+
+I will provide a question, choices, and functions.
+Select one function to answer the question and include the required arguments in your response.
+Format: function_name, arguments (e.g., count_total_room_entries, bedroom)
+
+Question: Where is he at 00h-03m-39s from the beginning?
+Choices: ['livingroom', 'bathroom', 'kitchin', 'bedroom']
+Functions:
+- count_total_room_entries
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: Total number of entries into the room
+
+- count_action_occurrences
+# Parameters: action_name (close, grab, switchon, switchoff, turnto, ...)
+# Returns: Number of times the action was performed within each activity
+
+- get_first_action_in_room
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: First action performed after entering the room
+
+- get_last_action_before_entry
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: Last action performed before entering the room
+
+- get_action_at_time
+# Parameters: time (e.g., 1h-30m-15s)
+# Returns: Name of the object and place at the specified time
+    
+ChatGPT Response: [ get_action_at_time, 00h-03m-39s ]
+
+Please select the appropriate choice and output only the choice.
+Format: Choice: {answer} (e.g., Choice: Yes, Choice: No, Choice: 5, Choice: GRAB, Choice: livingroom)
+
+Question: Where is he at 00h-03m-39s from the beginning?
+Choices: ['livingroom', 'bathroom', 'kitchin', 'bedroom']
+Function: get_action_at_time
+Function output: {'action': 'walk', 'target_object': 'stove', 'place': 'kitchen'}
+
+ChatGPT Response: [ Choice: kitchin ]
+ChatGPT Answer: kitchin
+Correct Answer: None
+Is the answer correct?: False
+question path: QA/MultiChoice/Q5/q5_answer_scene2_Day1_location6.json
+
+I will provide a question, choices, and functions.
+Select one function to answer the question and include the required arguments in your response.
+Format: function_name, arguments (e.g., count_total_room_entries, bedroom)
+
+Question: Where is he at 00h-03m-59s from the beginning?
+Choices: ['livingroom', 'bathroom', 'kitchin', 'bedroom']
+Functions:
+- count_total_room_entries
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: Total number of entries into the room
+
+- count_action_occurrences
+# Parameters: action_name (close, grab, switchon, switchoff, turnto, ...)
+# Returns: Number of times the action was performed within each activity
+
+- get_first_action_in_room
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: First action performed after entering the room
+
+- get_last_action_before_entry
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: Last action performed before entering the room
+
+- get_action_at_time
+# Parameters: time (e.g., 1h-30m-15s)
+# Returns: Name of the object and place at the specified time
+    
+ChatGPT Response: [ get_action_at_time, 00h-03m-59s ]
+
+Please select the appropriate choice and output only the choice.
+Format: Choice: {answer} (e.g., Choice: Yes, Choice: No, Choice: 5, Choice: GRAB, Choice: livingroom)
+
+Question: Where is he at 00h-03m-59s from the beginning?
+Choices: ['livingroom', 'bathroom', 'kitchin', 'bedroom']
+Function: get_action_at_time
+Function output: {'action': 'wipe', 'target_object': 'washingsponge', 'place': 'kitchen'}
+
+ChatGPT Response: [ Choice: kitchin ]
+ChatGPT Answer: kitchin
+Correct Answer: None
+Is the answer correct?: False
+question path: QA/MultiChoice/Q5/q5_answer_scene2_Day1_location7.json
+
+I will provide a question, choices, and functions.
+Select one function to answer the question and include the required arguments in your response.
+Format: function_name, arguments (e.g., count_total_room_entries, bedroom)
+
+Question: Where is he at 00h-04m-38s from the beginning?
+Choices: ['livingroom', 'bathroom', 'kitchin', 'bedroom']
+Functions:
+- count_total_room_entries
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: Total number of entries into the room
+
+- count_action_occurrences
+# Parameters: action_name (close, grab, switchon, switchoff, turnto, ...)
+# Returns: Number of times the action was performed within each activity
+
+- get_first_action_in_room
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: First action performed after entering the room
+
+- get_last_action_before_entry
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: Last action performed before entering the room
+
+- get_action_at_time
+# Parameters: time (e.g., 1h-30m-15s)
+# Returns: Name of the object and place at the specified time
+    
+ChatGPT Response: [ get_action_at_time, 0h-4m-38s ]
+
+Please select the appropriate choice and output only the choice.
+Format: Choice: {answer} (e.g., Choice: Yes, Choice: No, Choice: 5, Choice: GRAB, Choice: livingroom)
+
+Question: Where is he at 00h-04m-38s from the beginning?
+Choices: ['livingroom', 'bathroom', 'kitchin', 'bedroom']
+Function: get_action_at_time
+Function output: {'action': 'grab', 'target_object': 'juice', 'place': 'kitchen'}
+
+ChatGPT Response: [ Choice: kitchin ]
+ChatGPT Answer: kitchin
+Correct Answer: None
+Is the answer correct?: False
+question path: QA/MultiChoice/Q5/q5_answer_scene2_Day1_location8.json
+
+I will provide a question, choices, and functions.
+Select one function to answer the question and include the required arguments in your response.
+Format: function_name, arguments (e.g., count_total_room_entries, bedroom)
+
+Question: Where is he at 00h-04m-52s from the beginning?
+Choices: ['livingroom', 'bathroom', 'kitchin', 'bedroom']
+Functions:
+- count_total_room_entries
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: Total number of entries into the room
+
+- count_action_occurrences
+# Parameters: action_name (close, grab, switchon, switchoff, turnto, ...)
+# Returns: Number of times the action was performed within each activity
+
+- get_first_action_in_room
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: First action performed after entering the room
+
+- get_last_action_before_entry
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: Last action performed before entering the room
+
+- get_action_at_time
+# Parameters: time (e.g., 1h-30m-15s)
+# Returns: Name of the object and place at the specified time
+    
+ChatGPT Response: [ get_action_at_time, 00h-04m-52s ]
+
+Please select the appropriate choice and output only the choice.
+Format: Choice: {answer} (e.g., Choice: Yes, Choice: No, Choice: 5, Choice: GRAB, Choice: livingroom)
+
+Question: Where is he at 00h-04m-52s from the beginning?
+Choices: ['livingroom', 'bathroom', 'kitchin', 'bedroom']
+Function: get_action_at_time
+Function output: {'action': 'pour', 'target_object': 'juice', 'place': 'kitchen'}
+
+ChatGPT Response: [ Choice: kitchin ]
+ChatGPT Answer: kitchin
+Correct Answer: None
+Is the answer correct?: False
+question path: QA/MultiChoice/Q5/q5_answer_scene2_Day1_location9.json
+
+I will provide a question, choices, and functions.
+Select one function to answer the question and include the required arguments in your response.
+Format: function_name, arguments (e.g., count_total_room_entries, bedroom)
+
+Question: Where is he at 00h-05m-19s from the beginning?
+Choices: ['livingroom', 'bathroom', 'kitchin', 'bedroom']
+Functions:
+- count_total_room_entries
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: Total number of entries into the room
+
+- count_action_occurrences
+# Parameters: action_name (close, grab, switchon, switchoff, turnto, ...)
+# Returns: Number of times the action was performed within each activity
+
+- get_first_action_in_room
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: First action performed after entering the room
+
+- get_last_action_before_entry
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: Last action performed before entering the room
+
+- get_action_at_time
+# Parameters: time (e.g., 1h-30m-15s)
+# Returns: Name of the object and place at the specified time
+    
+ChatGPT Response: [ get_action_at_time, 00h-05m-19s ]
+
+Please select the appropriate choice and output only the choice.
+Format: Choice: {answer} (e.g., Choice: Yes, Choice: No, Choice: 5, Choice: GRAB, Choice: livingroom)
+
+Question: Where is he at 00h-05m-19s from the beginning?
+Choices: ['livingroom', 'bathroom', 'kitchin', 'bedroom']
+Function: get_action_at_time
+Function output: {'action': 'grab', 'target_object': 'waterglass', 'place': 'kitchen'}
+
+ChatGPT Response: [ Choice: kitchin ]
+ChatGPT Answer: kitchin
+Correct Answer: None
+Is the answer correct?: False
+question path: QA/MultiChoice/Q5/q5_answer_scene2_Day1_object0.json
+
+I will provide a question, choices, and functions.
+Select one function to answer the question and include the required arguments in your response.
+Format: function_name, arguments (e.g., count_total_room_entries, bedroom)
+
+Question: What is he having at 00h-00m-31s from the beginning?
+Choices: ['WATERGLASS', 'WATERGLASS', 'WASHINGSPONGE', 'REMOTECONTROL', 'WATERGLASS', 'JUICE', 'JUICE', 'MILK', 'WATERGLASS', 'JUICE', 'JUICE', 'MILK', 'DISHBOWL', 'CEREAL', 'WATERGLASS', 'WATERGLASS', 'CELLPHONE']
+Functions:
+- count_total_room_entries
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: Total number of entries into the room
+
+- count_action_occurrences
+# Parameters: action_name (close, grab, switchon, switchoff, turnto, ...)
+# Returns: Number of times the action was performed within each activity
+
+- get_first_action_in_room
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: First action performed after entering the room
+
+- get_last_action_before_entry
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: Last action performed before entering the room
+
+- get_action_at_time
+# Parameters: time (e.g., 1h-30m-15s)
+# Returns: Name of the object and place at the specified time
+    
+ChatGPT Response: [ get_action_at_time, 00h-00m-31s ]
+
+Please select the appropriate choice and output only the choice.
+Format: Choice: {answer} (e.g., Choice: Yes, Choice: No, Choice: 5, Choice: GRAB, Choice: livingroom)
+
+Question: What is he having at 00h-00m-31s from the beginning?
+Choices: ['WATERGLASS', 'WATERGLASS', 'WASHINGSPONGE', 'REMOTECONTROL', 'WATERGLASS', 'JUICE', 'JUICE', 'MILK', 'WATERGLASS', 'JUICE', 'JUICE', 'MILK', 'DISHBOWL', 'CEREAL', 'WATERGLASS', 'WATERGLASS', 'CELLPHONE']
+Function: get_action_at_time
+Function output: {'action': 'walk', 'target_object': 'bed', 'place': 'bedroom'}
+
+ChatGPT Response: [ Choice: WATERGLASS ]
+ChatGPT Answer: WATERGLASS
+Correct Answer: CELLPHONE
+Is the answer correct?: False
+question path: QA/MultiChoice/Q5/q5_answer_scene2_Day1_object1.json
+
+I will provide a question, choices, and functions.
+Select one function to answer the question and include the required arguments in your response.
+Format: function_name, arguments (e.g., count_total_room_entries, bedroom)
+
+Question: What is he having at 00h-01m-41s from the beginning?
+Choices: ['WATERGLASS', 'WATERGLASS', 'WASHINGSPONGE', 'REMOTECONTROL', 'WATERGLASS', 'JUICE', 'JUICE', 'MILK', 'WATERGLASS', 'JUICE', 'JUICE', 'MILK', 'DISHBOWL', 'CEREAL', 'WATERGLASS', 'WATERGLASS', 'CELLPHONE']
+Functions:
+- count_total_room_entries
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: Total number of entries into the room
+
+- count_action_occurrences
+# Parameters: action_name (close, grab, switchon, switchoff, turnto, ...)
+# Returns: Number of times the action was performed within each activity
+
+- get_first_action_in_room
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: First action performed after entering the room
+
+- get_last_action_before_entry
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: Last action performed before entering the room
+
+- get_action_at_time
+# Parameters: time (e.g., 1h-30m-15s)
+# Returns: Name of the object and place at the specified time
+    
+ChatGPT Response: [ get_action_at_time, 00h-01m-41s ]
+
+Please select the appropriate choice and output only the choice.
+Format: Choice: {answer} (e.g., Choice: Yes, Choice: No, Choice: 5, Choice: GRAB, Choice: livingroom)
+
+Question: What is he having at 00h-01m-41s from the beginning?
+Choices: ['WATERGLASS', 'WATERGLASS', 'WASHINGSPONGE', 'REMOTECONTROL', 'WATERGLASS', 'JUICE', 'JUICE', 'MILK', 'WATERGLASS', 'JUICE', 'JUICE', 'MILK', 'DISHBOWL', 'CEREAL', 'WATERGLASS', 'WATERGLASS', 'CELLPHONE']
+Function: get_action_at_time
+Function output: {'action': 'text', 'target_object': 'cellphone', 'place': 'livingroom'}
+
+ChatGPT Response: [ Choice: CELLPHONE ]
+ChatGPT Answer: CELLPHONE
+Correct Answer: REMOTECONTROL
+Is the answer correct?: False
+question path: QA/MultiChoice/Q5/q5_answer_scene2_Day1_object10.json
+
+I will provide a question, choices, and functions.
+Select one function to answer the question and include the required arguments in your response.
+Format: function_name, arguments (e.g., count_total_room_entries, bedroom)
+
+Question: What is he having at 00h-06m-02s from the beginning?
+Choices: ['WATERGLASS', 'WATERGLASS', 'WASHINGSPONGE', 'REMOTECONTROL', 'WATERGLASS', 'JUICE', 'JUICE', 'MILK', 'WATERGLASS', 'JUICE', 'JUICE', 'MILK', 'DISHBOWL', 'CEREAL', 'WATERGLASS', 'WATERGLASS', 'CELLPHONE']
+Functions:
+- count_total_room_entries
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: Total number of entries into the room
+
+- count_action_occurrences
+# Parameters: action_name (close, grab, switchon, switchoff, turnto, ...)
+# Returns: Number of times the action was performed within each activity
+
+- get_first_action_in_room
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: First action performed after entering the room
+
+- get_last_action_before_entry
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: Last action performed before entering the room
+
+- get_action_at_time
+# Parameters: time (e.g., 1h-30m-15s)
+# Returns: Name of the object and place at the specified time
+    
+ChatGPT Response: [ get_action_at_time, 00h-06m-02s ]
+
+Please select the appropriate choice and output only the choice.
+Format: Choice: {answer} (e.g., Choice: Yes, Choice: No, Choice: 5, Choice: GRAB, Choice: livingroom)
+
+Question: What is he having at 00h-06m-02s from the beginning?
+Choices: ['WATERGLASS', 'WATERGLASS', 'WASHINGSPONGE', 'REMOTECONTROL', 'WATERGLASS', 'JUICE', 'JUICE', 'MILK', 'WATERGLASS', 'JUICE', 'JUICE', 'MILK', 'DISHBOWL', 'CEREAL', 'WATERGLASS', 'WATERGLASS', 'CELLPHONE']
+Function: get_action_at_time
+Function output: {'action': 'switchoff', 'target_object': 'lightswitch', 'place': 'kitchen'}
+
+ChatGPT Response: [ Choice: WATERGLASS ]
+ChatGPT Answer: WATERGLASS
+Correct Answer: DISHBOWL
+Is the answer correct?: False
+question path: QA/MultiChoice/Q5/q5_answer_scene2_Day1_object11.json
+
+I will provide a question, choices, and functions.
+Select one function to answer the question and include the required arguments in your response.
+Format: function_name, arguments (e.g., count_total_room_entries, bedroom)
+
+Question: What is he having at 00h-06m-29s from the beginning?
+Choices: ['WATERGLASS', 'WATERGLASS', 'WASHINGSPONGE', 'REMOTECONTROL', 'WATERGLASS', 'JUICE', 'JUICE', 'MILK', 'WATERGLASS', 'JUICE', 'JUICE', 'MILK', 'DISHBOWL', 'CEREAL', 'WATERGLASS', 'WATERGLASS', 'CELLPHONE']
+Functions:
+- count_total_room_entries
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: Total number of entries into the room
+
+- count_action_occurrences
+# Parameters: action_name (close, grab, switchon, switchoff, turnto, ...)
+# Returns: Number of times the action was performed within each activity
+
+- get_first_action_in_room
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: First action performed after entering the room
+
+- get_last_action_before_entry
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: Last action performed before entering the room
+
+- get_action_at_time
+# Parameters: time (e.g., 1h-30m-15s)
+# Returns: Name of the object and place at the specified time
+    
+ChatGPT Response: [ get_action_at_time, 00h-06m-29s ]
+
+Please select the appropriate choice and output only the choice.
+Format: Choice: {answer} (e.g., Choice: Yes, Choice: No, Choice: 5, Choice: GRAB, Choice: livingroom)
+
+Question: What is he having at 00h-06m-29s from the beginning?
+Choices: ['WATERGLASS', 'WATERGLASS', 'WASHINGSPONGE', 'REMOTECONTROL', 'WATERGLASS', 'JUICE', 'JUICE', 'MILK', 'WATERGLASS', 'JUICE', 'JUICE', 'MILK', 'DISHBOWL', 'CEREAL', 'WATERGLASS', 'WATERGLASS', 'CELLPHONE']
+Function: get_action_at_time
+Function output: {'action': 'walk', 'target_object': 'dishbowl', 'place': 'kitchen'}
+
+ChatGPT Response: [ Choice: DISHBOWL ]
+ChatGPT Answer: DISHBOWL
+Correct Answer: CEREAL
+Is the answer correct?: False
+question path: QA/MultiChoice/Q5/q5_answer_scene2_Day1_object12.json
+
+I will provide a question, choices, and functions.
+Select one function to answer the question and include the required arguments in your response.
+Format: function_name, arguments (e.g., count_total_room_entries, bedroom)
+
+Question: What is he having at 00h-07m-15s from the beginning?
+Choices: ['WATERGLASS', 'WATERGLASS', 'WASHINGSPONGE', 'REMOTECONTROL', 'WATERGLASS', 'JUICE', 'JUICE', 'MILK', 'WATERGLASS', 'JUICE', 'JUICE', 'MILK', 'DISHBOWL', 'CEREAL', 'WATERGLASS', 'WATERGLASS', 'CELLPHONE']
+Functions:
+- count_total_room_entries
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: Total number of entries into the room
+
+- count_action_occurrences
+# Parameters: action_name (close, grab, switchon, switchoff, turnto, ...)
+# Returns: Number of times the action was performed within each activity
+
+- get_first_action_in_room
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: First action performed after entering the room
+
+- get_last_action_before_entry
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: Last action performed before entering the room
+
+- get_action_at_time
+# Parameters: time (e.g., 1h-30m-15s)
+# Returns: Name of the object and place at the specified time
+    
+ChatGPT Response: [ get_action_at_time, 00h-07m-15s ]
+
+Please select the appropriate choice and output only the choice.
+Format: Choice: {answer} (e.g., Choice: Yes, Choice: No, Choice: 5, Choice: GRAB, Choice: livingroom)
+
+Question: What is he having at 00h-07m-15s from the beginning?
+Choices: ['WATERGLASS', 'WATERGLASS', 'WASHINGSPONGE', 'REMOTECONTROL', 'WATERGLASS', 'JUICE', 'JUICE', 'MILK', 'WATERGLASS', 'JUICE', 'JUICE', 'MILK', 'DISHBOWL', 'CEREAL', 'WATERGLASS', 'WATERGLASS', 'CELLPHONE']
+Function: get_action_at_time
+Function output: {'action': 'pour', 'target_object': 'cereal', 'place': 'kitchen'}
+
+ChatGPT Response: [ Choice: CEREAL ]
+ChatGPT Answer: CEREAL
+Correct Answer: JUICE
+Is the answer correct?: False
+question path: QA/MultiChoice/Q5/q5_answer_scene2_Day1_object13.json
+
+I will provide a question, choices, and functions.
+Select one function to answer the question and include the required arguments in your response.
+Format: function_name, arguments (e.g., count_total_room_entries, bedroom)
+
+Question: What is he having at 00h-07m-50s from the beginning?
+Choices: ['WATERGLASS', 'WATERGLASS', 'WASHINGSPONGE', 'REMOTECONTROL', 'WATERGLASS', 'JUICE', 'JUICE', 'MILK', 'WATERGLASS', 'JUICE', 'JUICE', 'MILK', 'DISHBOWL', 'CEREAL', 'WATERGLASS', 'WATERGLASS', 'CELLPHONE']
+Functions:
+- count_total_room_entries
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: Total number of entries into the room
+
+- count_action_occurrences
+# Parameters: action_name (close, grab, switchon, switchoff, turnto, ...)
+# Returns: Number of times the action was performed within each activity
+
+- get_first_action_in_room
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: First action performed after entering the room
+
+- get_last_action_before_entry
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: Last action performed before entering the room
+
+- get_action_at_time
+# Parameters: time (e.g., 1h-30m-15s)
+# Returns: Name of the object and place at the specified time
+    
+ChatGPT Response: [ get_action_at_time, 00h-07m-50s ]
+
+Please select the appropriate choice and output only the choice.
+Format: Choice: {answer} (e.g., Choice: Yes, Choice: No, Choice: 5, Choice: GRAB, Choice: livingroom)
+
+Question: What is he having at 00h-07m-50s from the beginning?
+Choices: ['WATERGLASS', 'WATERGLASS', 'WASHINGSPONGE', 'REMOTECONTROL', 'WATERGLASS', 'JUICE', 'JUICE', 'MILK', 'WATERGLASS', 'JUICE', 'JUICE', 'MILK', 'DISHBOWL', 'CEREAL', 'WATERGLASS', 'WATERGLASS', 'CELLPHONE']
+Function: get_action_at_time
+Function output: {'action': 'pour', 'target_object': 'milk', 'place': 'kitchen'}
+
+ChatGPT Response: [ Choice: MILK ]
+ChatGPT Answer: MILK
+Correct Answer: WATERGLASS
+Is the answer correct?: False
+question path: QA/MultiChoice/Q5/q5_answer_scene2_Day1_object14.json
+
+I will provide a question, choices, and functions.
+Select one function to answer the question and include the required arguments in your response.
+Format: function_name, arguments (e.g., count_total_room_entries, bedroom)
+
+Question: What is he having at 00h-08m-11s from the beginning?
+Choices: ['WATERGLASS', 'WATERGLASS', 'WASHINGSPONGE', 'REMOTECONTROL', 'WATERGLASS', 'JUICE', 'JUICE', 'MILK', 'WATERGLASS', 'JUICE', 'JUICE', 'MILK', 'DISHBOWL', 'CEREAL', 'WATERGLASS', 'WATERGLASS', 'CELLPHONE']
+Functions:
+- count_total_room_entries
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: Total number of entries into the room
+
+- count_action_occurrences
+# Parameters: action_name (close, grab, switchon, switchoff, turnto, ...)
+# Returns: Number of times the action was performed within each activity
+
+- get_first_action_in_room
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: First action performed after entering the room
+
+- get_last_action_before_entry
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: Last action performed before entering the room
+
+- get_action_at_time
+# Parameters: time (e.g., 1h-30m-15s)
+# Returns: Name of the object and place at the specified time
+    
+ChatGPT Response: [ get_action_at_time, 00h-08m-11s ]
+
+Please select the appropriate choice and output only the choice.
+Format: Choice: {answer} (e.g., Choice: Yes, Choice: No, Choice: 5, Choice: GRAB, Choice: livingroom)
+
+Question: What is he having at 00h-08m-11s from the beginning?
+Choices: ['WATERGLASS', 'WATERGLASS', 'WASHINGSPONGE', 'REMOTECONTROL', 'WATERGLASS', 'JUICE', 'JUICE', 'MILK', 'WATERGLASS', 'JUICE', 'JUICE', 'MILK', 'DISHBOWL', 'CEREAL', 'WATERGLASS', 'WATERGLASS', 'CELLPHONE']
+Function: get_action_at_time
+Function output: {'action': 'walk', 'target_object': 'kitchentable', 'place': 'kitchen'}
+
+ChatGPT Response: [ Choice: WATERGLASS ]
+ChatGPT Answer: WATERGLASS
+Correct Answer: WATERGLASS
+Is the answer correct?: True
+question path: QA/MultiChoice/Q5/q5_answer_scene2_Day1_object15.json
+
+I will provide a question, choices, and functions.
+Select one function to answer the question and include the required arguments in your response.
+Format: function_name, arguments (e.g., count_total_room_entries, bedroom)
+
+Question: What is he having at 00h-08m-49s from the beginning?
+Choices: ['WATERGLASS', 'WATERGLASS', 'WASHINGSPONGE', 'REMOTECONTROL', 'WATERGLASS', 'JUICE', 'JUICE', 'MILK', 'WATERGLASS', 'JUICE', 'JUICE', 'MILK', 'DISHBOWL', 'CEREAL', 'WATERGLASS', 'WATERGLASS', 'CELLPHONE']
+Functions:
+- count_total_room_entries
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: Total number of entries into the room
+
+- count_action_occurrences
+# Parameters: action_name (close, grab, switchon, switchoff, turnto, ...)
+# Returns: Number of times the action was performed within each activity
+
+- get_first_action_in_room
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: First action performed after entering the room
+
+- get_last_action_before_entry
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: Last action performed before entering the room
+
+- get_action_at_time
+# Parameters: time (e.g., 1h-30m-15s)
+# Returns: Name of the object and place at the specified time
+    
+ChatGPT Response: [ get_action_at_time, 00h-08m-49s ]
+
+Please select the appropriate choice and output only the choice.
+Format: Choice: {answer} (e.g., Choice: Yes, Choice: No, Choice: 5, Choice: GRAB, Choice: livingroom)
+
+Question: What is he having at 00h-08m-49s from the beginning?
+Choices: ['WATERGLASS', 'WATERGLASS', 'WASHINGSPONGE', 'REMOTECONTROL', 'WATERGLASS', 'JUICE', 'JUICE', 'MILK', 'WATERGLASS', 'JUICE', 'JUICE', 'MILK', 'DISHBOWL', 'CEREAL', 'WATERGLASS', 'WATERGLASS', 'CELLPHONE']
+Function: get_action_at_time
+Function output: {'action': 'grab', 'target_object': 'waterglass', 'place': 'kitchen'}
+
+ChatGPT Response: [ Choice: WATERGLASS ]
+ChatGPT Answer: WATERGLASS
+Correct Answer: JUICE
+Is the answer correct?: False
+question path: QA/MultiChoice/Q5/q5_answer_scene2_Day1_object16.json
+
+I will provide a question, choices, and functions.
+Select one function to answer the question and include the required arguments in your response.
+Format: function_name, arguments (e.g., count_total_room_entries, bedroom)
+
+Question: What is he having at 00h-09m-03s from the beginning?
+Choices: ['WATERGLASS', 'WATERGLASS', 'WASHINGSPONGE', 'REMOTECONTROL', 'WATERGLASS', 'JUICE', 'JUICE', 'MILK', 'WATERGLASS', 'JUICE', 'JUICE', 'MILK', 'DISHBOWL', 'CEREAL', 'WATERGLASS', 'WATERGLASS', 'CELLPHONE']
+Functions:
+- count_total_room_entries
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: Total number of entries into the room
+
+- count_action_occurrences
+# Parameters: action_name (close, grab, switchon, switchoff, turnto, ...)
+# Returns: Number of times the action was performed within each activity
+
+- get_first_action_in_room
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: First action performed after entering the room
+
+- get_last_action_before_entry
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: Last action performed before entering the room
+
+- get_action_at_time
+# Parameters: time (e.g., 1h-30m-15s)
+# Returns: Name of the object and place at the specified time
+    
+ChatGPT Response: [ get_action_at_time, 00h-09m-03s ]
+
+Please select the appropriate choice and output only the choice.
+Format: Choice: {answer} (e.g., Choice: Yes, Choice: No, Choice: 5, Choice: GRAB, Choice: livingroom)
+
+Question: What is he having at 00h-09m-03s from the beginning?
+Choices: ['WATERGLASS', 'WATERGLASS', 'WASHINGSPONGE', 'REMOTECONTROL', 'WATERGLASS', 'JUICE', 'JUICE', 'MILK', 'WATERGLASS', 'JUICE', 'JUICE', 'MILK', 'DISHBOWL', 'CEREAL', 'WATERGLASS', 'WATERGLASS', 'CELLPHONE']
+Function: get_action_at_time
+Function output: {'action': 'put', 'target_object': 'waterglass', 'place': 'kitchen'}
+
+ChatGPT Response: [ Choice: WATERGLASS ]
+ChatGPT Answer: WATERGLASS
+Correct Answer: WATERGLASS
+Is the answer correct?: True
+question path: QA/MultiChoice/Q5/q5_answer_scene2_Day1_object2.json
+
+I will provide a question, choices, and functions.
+Select one function to answer the question and include the required arguments in your response.
+Format: function_name, arguments (e.g., count_total_room_entries, bedroom)
+
+Question: What is he having at 00h-01m-49s from the beginning?
+Choices: ['WATERGLASS', 'WATERGLASS', 'WASHINGSPONGE', 'REMOTECONTROL', 'WATERGLASS', 'JUICE', 'JUICE', 'MILK', 'WATERGLASS', 'JUICE', 'JUICE', 'MILK', 'DISHBOWL', 'CEREAL', 'WATERGLASS', 'WATERGLASS', 'CELLPHONE']
+Functions:
+- count_total_room_entries
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: Total number of entries into the room
+
+- count_action_occurrences
+# Parameters: action_name (close, grab, switchon, switchoff, turnto, ...)
+# Returns: Number of times the action was performed within each activity
+
+- get_first_action_in_room
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: First action performed after entering the room
+
+- get_last_action_before_entry
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: Last action performed before entering the room
+
+- get_action_at_time
+# Parameters: time (e.g., 1h-30m-15s)
+# Returns: Name of the object and place at the specified time
+    
+ChatGPT Response: [ get_action_at_time, 00h-01m-49s ]
+
+Please select the appropriate choice and output only the choice.
+Format: Choice: {answer} (e.g., Choice: Yes, Choice: No, Choice: 5, Choice: GRAB, Choice: livingroom)
+
+Question: What is he having at 00h-01m-49s from the beginning?
+Choices: ['WATERGLASS', 'WATERGLASS', 'WASHINGSPONGE', 'REMOTECONTROL', 'WATERGLASS', 'JUICE', 'JUICE', 'MILK', 'WATERGLASS', 'JUICE', 'JUICE', 'MILK', 'DISHBOWL', 'CEREAL', 'WATERGLASS', 'WATERGLASS', 'CELLPHONE']
+Function: get_action_at_time
+Function output: {'action': 'walk', 'target_object': 'tv', 'place': 'livingroom'}
+
+ChatGPT Response: [ Choice: WATERGLASS ]
+ChatGPT Answer: WATERGLASS
+Correct Answer: MILK
+Is the answer correct?: False
+question path: QA/MultiChoice/Q5/q5_answer_scene2_Day1_object3.json
+
+I will provide a question, choices, and functions.
+Select one function to answer the question and include the required arguments in your response.
+Format: function_name, arguments (e.g., count_total_room_entries, bedroom)
+
+Question: What is he having at 00h-02m-18s from the beginning?
+Choices: ['WATERGLASS', 'WATERGLASS', 'WASHINGSPONGE', 'REMOTECONTROL', 'WATERGLASS', 'JUICE', 'JUICE', 'MILK', 'WATERGLASS', 'JUICE', 'JUICE', 'MILK', 'DISHBOWL', 'CEREAL', 'WATERGLASS', 'WATERGLASS', 'CELLPHONE']
+Functions:
+- count_total_room_entries
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: Total number of entries into the room
+
+- count_action_occurrences
+# Parameters: action_name (close, grab, switchon, switchoff, turnto, ...)
+# Returns: Number of times the action was performed within each activity
+
+- get_first_action_in_room
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: First action performed after entering the room
+
+- get_last_action_before_entry
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: Last action performed before entering the room
+
+- get_action_at_time
+# Parameters: time (e.g., 1h-30m-15s)
+# Returns: Name of the object and place at the specified time
+    
+ChatGPT Response: [ get_action_at_time, 00h-02m-18s ]
+
+Please select the appropriate choice and output only the choice.
+Format: Choice: {answer} (e.g., Choice: Yes, Choice: No, Choice: 5, Choice: GRAB, Choice: livingroom)
+
+Question: What is he having at 00h-02m-18s from the beginning?
+Choices: ['WATERGLASS', 'WATERGLASS', 'WASHINGSPONGE', 'REMOTECONTROL', 'WATERGLASS', 'JUICE', 'JUICE', 'MILK', 'WATERGLASS', 'JUICE', 'JUICE', 'MILK', 'DISHBOWL', 'CEREAL', 'WATERGLASS', 'WATERGLASS', 'CELLPHONE']
+Function: get_action_at_time
+Function output: {'action': 'walk', 'target_object': 'milk', 'place': 'kitchen'}
+
+ChatGPT Response: [ Choice: MILK ]
+ChatGPT Answer: MILK
+Correct Answer: WASHINGSPONGE
+Is the answer correct?: False
+question path: QA/MultiChoice/Q5/q5_answer_scene2_Day1_object4.json
+
+I will provide a question, choices, and functions.
+Select one function to answer the question and include the required arguments in your response.
+Format: function_name, arguments (e.g., count_total_room_entries, bedroom)
+
+Question: What is he having at 00h-03m-04s from the beginning?
+Choices: ['WATERGLASS', 'WATERGLASS', 'WASHINGSPONGE', 'REMOTECONTROL', 'WATERGLASS', 'JUICE', 'JUICE', 'MILK', 'WATERGLASS', 'JUICE', 'JUICE', 'MILK', 'DISHBOWL', 'CEREAL', 'WATERGLASS', 'WATERGLASS', 'CELLPHONE']
+Functions:
+- count_total_room_entries
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: Total number of entries into the room
+
+- count_action_occurrences
+# Parameters: action_name (close, grab, switchon, switchoff, turnto, ...)
+# Returns: Number of times the action was performed within each activity
+
+- get_first_action_in_room
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: First action performed after entering the room
+
+- get_last_action_before_entry
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: Last action performed before entering the room
+
+- get_action_at_time
+# Parameters: time (e.g., 1h-30m-15s)
+# Returns: Name of the object and place at the specified time
+    
+ChatGPT Response: [ get_action_at_time, 00h-03m-04s ]
+
+Please select the appropriate choice and output only the choice.
+Format: Choice: {answer} (e.g., Choice: Yes, Choice: No, Choice: 5, Choice: GRAB, Choice: livingroom)
+
+Question: What is he having at 00h-03m-04s from the beginning?
+Choices: ['WATERGLASS', 'WATERGLASS', 'WASHINGSPONGE', 'REMOTECONTROL', 'WATERGLASS', 'JUICE', 'JUICE', 'MILK', 'WATERGLASS', 'JUICE', 'JUICE', 'MILK', 'DISHBOWL', 'CEREAL', 'WATERGLASS', 'WATERGLASS', 'CELLPHONE']
+Function: get_action_at_time
+Function output: {'action': 'stand', 'target_object': None, 'place': 'livingroom'}
+
+ChatGPT Response: [ Choice: WATERGLASS ]
+ChatGPT Answer: WATERGLASS
+Correct Answer: JUICE
+Is the answer correct?: False
+question path: QA/MultiChoice/Q5/q5_answer_scene2_Day1_object5.json
+
+I will provide a question, choices, and functions.
+Select one function to answer the question and include the required arguments in your response.
+Format: function_name, arguments (e.g., count_total_room_entries, bedroom)
+
+Question: What is he having at 00h-03m-39s from the beginning?
+Choices: ['WATERGLASS', 'WATERGLASS', 'WASHINGSPONGE', 'REMOTECONTROL', 'WATERGLASS', 'JUICE', 'JUICE', 'MILK', 'WATERGLASS', 'JUICE', 'JUICE', 'MILK', 'DISHBOWL', 'CEREAL', 'WATERGLASS', 'WATERGLASS', 'CELLPHONE']
+Functions:
+- count_total_room_entries
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: Total number of entries into the room
+
+- count_action_occurrences
+# Parameters: action_name (close, grab, switchon, switchoff, turnto, ...)
+# Returns: Number of times the action was performed within each activity
+
+- get_first_action_in_room
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: First action performed after entering the room
+
+- get_last_action_before_entry
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: Last action performed before entering the room
+
+- get_action_at_time
+# Parameters: time (e.g., 1h-30m-15s)
+# Returns: Name of the object and place at the specified time
+    
+ChatGPT Response: [ get_action_at_time, 00h-03m-39s ]
+
+Please select the appropriate choice and output only the choice.
+Format: Choice: {answer} (e.g., Choice: Yes, Choice: No, Choice: 5, Choice: GRAB, Choice: livingroom)
+
+Question: What is he having at 00h-03m-39s from the beginning?
+Choices: ['WATERGLASS', 'WATERGLASS', 'WASHINGSPONGE', 'REMOTECONTROL', 'WATERGLASS', 'JUICE', 'JUICE', 'MILK', 'WATERGLASS', 'JUICE', 'JUICE', 'MILK', 'DISHBOWL', 'CEREAL', 'WATERGLASS', 'WATERGLASS', 'CELLPHONE']
+Function: get_action_at_time
+Function output: {'action': 'walk', 'target_object': 'stove', 'place': 'kitchen'}
+
+ChatGPT Response: [ Choice: WATERGLASS ]
+ChatGPT Answer: WATERGLASS
+Correct Answer: WATERGLASS
+Is the answer correct?: True
+question path: QA/MultiChoice/Q5/q5_answer_scene2_Day1_object6.json
+
+I will provide a question, choices, and functions.
+Select one function to answer the question and include the required arguments in your response.
+Format: function_name, arguments (e.g., count_total_room_entries, bedroom)
+
+Question: What is he having at 00h-03m-59s from the beginning?
+Choices: ['WATERGLASS', 'WATERGLASS', 'WASHINGSPONGE', 'REMOTECONTROL', 'WATERGLASS', 'JUICE', 'JUICE', 'MILK', 'WATERGLASS', 'JUICE', 'JUICE', 'MILK', 'DISHBOWL', 'CEREAL', 'WATERGLASS', 'WATERGLASS', 'CELLPHONE']
+Functions:
+- count_total_room_entries
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: Total number of entries into the room
+
+- count_action_occurrences
+# Parameters: action_name (close, grab, switchon, switchoff, turnto, ...)
+# Returns: Number of times the action was performed within each activity
+
+- get_first_action_in_room
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: First action performed after entering the room
+
+- get_last_action_before_entry
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: Last action performed before entering the room
+
+- get_action_at_time
+# Parameters: time (e.g., 1h-30m-15s)
+# Returns: Name of the object and place at the specified time
+    
+ChatGPT Response: [ get_action_at_time, 0h-3m-59s ]
+
+Please select the appropriate choice and output only the choice.
+Format: Choice: {answer} (e.g., Choice: Yes, Choice: No, Choice: 5, Choice: GRAB, Choice: livingroom)
+
+Question: What is he having at 00h-03m-59s from the beginning?
+Choices: ['WATERGLASS', 'WATERGLASS', 'WASHINGSPONGE', 'REMOTECONTROL', 'WATERGLASS', 'JUICE', 'JUICE', 'MILK', 'WATERGLASS', 'JUICE', 'JUICE', 'MILK', 'DISHBOWL', 'CEREAL', 'WATERGLASS', 'WATERGLASS', 'CELLPHONE']
+Function: get_action_at_time
+Function output: {'action': 'wipe', 'target_object': 'washingsponge', 'place': 'kitchen'}
+
+ChatGPT Response: [ Choice: WATERGLASS ]
+ChatGPT Answer: WATERGLASS
+Correct Answer: WATERGLASS
+Is the answer correct?: True
+question path: QA/MultiChoice/Q5/q5_answer_scene2_Day1_object7.json
+
+I will provide a question, choices, and functions.
+Select one function to answer the question and include the required arguments in your response.
+Format: function_name, arguments (e.g., count_total_room_entries, bedroom)
+
+Question: What is he having at 00h-04m-38s from the beginning?
+Choices: ['WATERGLASS', 'WATERGLASS', 'WASHINGSPONGE', 'REMOTECONTROL', 'WATERGLASS', 'JUICE', 'JUICE', 'MILK', 'WATERGLASS', 'JUICE', 'JUICE', 'MILK', 'DISHBOWL', 'CEREAL', 'WATERGLASS', 'WATERGLASS', 'CELLPHONE']
+Functions:
+- count_total_room_entries
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: Total number of entries into the room
+
+- count_action_occurrences
+# Parameters: action_name (close, grab, switchon, switchoff, turnto, ...)
+# Returns: Number of times the action was performed within each activity
+
+- get_first_action_in_room
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: First action performed after entering the room
+
+- get_last_action_before_entry
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: Last action performed before entering the room
+
+- get_action_at_time
+# Parameters: time (e.g., 1h-30m-15s)
+# Returns: Name of the object and place at the specified time
+    
+ChatGPT Response: [ get_action_at_time, 00h-04m-38s ]
+
+Please select the appropriate choice and output only the choice.
+Format: Choice: {answer} (e.g., Choice: Yes, Choice: No, Choice: 5, Choice: GRAB, Choice: livingroom)
+
+Question: What is he having at 00h-04m-38s from the beginning?
+Choices: ['WATERGLASS', 'WATERGLASS', 'WASHINGSPONGE', 'REMOTECONTROL', 'WATERGLASS', 'JUICE', 'JUICE', 'MILK', 'WATERGLASS', 'JUICE', 'JUICE', 'MILK', 'DISHBOWL', 'CEREAL', 'WATERGLASS', 'WATERGLASS', 'CELLPHONE']
+Function: get_action_at_time
+Function output: {'action': 'grab', 'target_object': 'juice', 'place': 'kitchen'}
+
+ChatGPT Response: [ Choice: JUICE ]
+ChatGPT Answer: JUICE
+Correct Answer: JUICE
+Is the answer correct?: True
+question path: QA/MultiChoice/Q5/q5_answer_scene2_Day1_object8.json
+
+I will provide a question, choices, and functions.
+Select one function to answer the question and include the required arguments in your response.
+Format: function_name, arguments (e.g., count_total_room_entries, bedroom)
+
+Question: What is he having at 00h-04m-52s from the beginning?
+Choices: ['WATERGLASS', 'WATERGLASS', 'WASHINGSPONGE', 'REMOTECONTROL', 'WATERGLASS', 'JUICE', 'JUICE', 'MILK', 'WATERGLASS', 'JUICE', 'JUICE', 'MILK', 'DISHBOWL', 'CEREAL', 'WATERGLASS', 'WATERGLASS', 'CELLPHONE']
+Functions:
+- count_total_room_entries
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: Total number of entries into the room
+
+- count_action_occurrences
+# Parameters: action_name (close, grab, switchon, switchoff, turnto, ...)
+# Returns: Number of times the action was performed within each activity
+
+- get_first_action_in_room
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: First action performed after entering the room
+
+- get_last_action_before_entry
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: Last action performed before entering the room
+
+- get_action_at_time
+# Parameters: time (e.g., 1h-30m-15s)
+# Returns: Name of the object and place at the specified time
+    
+ChatGPT Response: [ get_action_at_time, 00h-04m-52s ]
+
+Please select the appropriate choice and output only the choice.
+Format: Choice: {answer} (e.g., Choice: Yes, Choice: No, Choice: 5, Choice: GRAB, Choice: livingroom)
+
+Question: What is he having at 00h-04m-52s from the beginning?
+Choices: ['WATERGLASS', 'WATERGLASS', 'WASHINGSPONGE', 'REMOTECONTROL', 'WATERGLASS', 'JUICE', 'JUICE', 'MILK', 'WATERGLASS', 'JUICE', 'JUICE', 'MILK', 'DISHBOWL', 'CEREAL', 'WATERGLASS', 'WATERGLASS', 'CELLPHONE']
+Function: get_action_at_time
+Function output: {'action': 'pour', 'target_object': 'juice', 'place': 'kitchen'}
+
+ChatGPT Response: [ Choice: JUICE ]
+ChatGPT Answer: JUICE
+Correct Answer: WATERGLASS
+Is the answer correct?: False
+question path: QA/MultiChoice/Q5/q5_answer_scene2_Day1_object9.json
+
+I will provide a question, choices, and functions.
+Select one function to answer the question and include the required arguments in your response.
+Format: function_name, arguments (e.g., count_total_room_entries, bedroom)
+
+Question: What is he having at 00h-05m-19s from the beginning?
+Choices: ['WATERGLASS', 'WATERGLASS', 'WASHINGSPONGE', 'REMOTECONTROL', 'WATERGLASS', 'JUICE', 'JUICE', 'MILK', 'WATERGLASS', 'JUICE', 'JUICE', 'MILK', 'DISHBOWL', 'CEREAL', 'WATERGLASS', 'WATERGLASS', 'CELLPHONE']
+Functions:
+- count_total_room_entries
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: Total number of entries into the room
+
+- count_action_occurrences
+# Parameters: action_name (close, grab, switchon, switchoff, turnto, ...)
+# Returns: Number of times the action was performed within each activity
+
+- get_first_action_in_room
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: First action performed after entering the room
+
+- get_last_action_before_entry
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: Last action performed before entering the room
+
+- get_action_at_time
+# Parameters: time (e.g., 1h-30m-15s)
+# Returns: Name of the object and place at the specified time
+    
+ChatGPT Response: [ get_action_at_time, 00h-05m-19s ]
+
+Please select the appropriate choice and output only the choice.
+Format: Choice: {answer} (e.g., Choice: Yes, Choice: No, Choice: 5, Choice: GRAB, Choice: livingroom)
+
+Question: What is he having at 00h-05m-19s from the beginning?
+Choices: ['WATERGLASS', 'WATERGLASS', 'WASHINGSPONGE', 'REMOTECONTROL', 'WATERGLASS', 'JUICE', 'JUICE', 'MILK', 'WATERGLASS', 'JUICE', 'JUICE', 'MILK', 'DISHBOWL', 'CEREAL', 'WATERGLASS', 'WATERGLASS', 'CELLPHONE']
+Function: get_action_at_time
+Function output: {'action': 'grab', 'target_object': 'waterglass', 'place': 'kitchen'}
+
+ChatGPT Response: [ Choice: WATERGLASS ]
+ChatGPT Answer: WATERGLASS
+Correct Answer: MILK
+Is the answer correct?: False
+success: 6
+failure: 28
+success rate: 0.17647058823529413
+results:
+path: QA/MultiChoice/Q5/q5_answer_scene2_Day1_location0.json, ChatGPT Answer: bedroom, Correct Answer: livingroom, answer==correct_answer: False, 
+path: QA/MultiChoice/Q5/q5_answer_scene2_Day1_location1.json, ChatGPT Answer: livingroom, Correct Answer: livingroom, answer==correct_answer: True, 
+path: QA/MultiChoice/Q5/q5_answer_scene2_Day1_location10.json, ChatGPT Answer: kitchin, Correct Answer: None, answer==correct_answer: False, 
+path: QA/MultiChoice/Q5/q5_answer_scene2_Day1_location11.json, ChatGPT Answer: kitchin, Correct Answer: None, answer==correct_answer: False, 
+path: QA/MultiChoice/Q5/q5_answer_scene2_Day1_location12.json, ChatGPT Answer: kitchin, Correct Answer: None, answer==correct_answer: False, 
+path: QA/MultiChoice/Q5/q5_answer_scene2_Day1_location13.json, ChatGPT Answer: kitchin, Correct Answer: None, answer==correct_answer: False, 
+path: QA/MultiChoice/Q5/q5_answer_scene2_Day1_location14.json, ChatGPT Answer: kitchin, Correct Answer: None, answer==correct_answer: False, 
+path: QA/MultiChoice/Q5/q5_answer_scene2_Day1_location15.json, ChatGPT Answer: kitchin, Correct Answer: None, answer==correct_answer: False, 
+path: QA/MultiChoice/Q5/q5_answer_scene2_Day1_location16.json, ChatGPT Answer: kitchin, Correct Answer: None, answer==correct_answer: False, 
+path: QA/MultiChoice/Q5/q5_answer_scene2_Day1_location2.json, ChatGPT Answer: livingroom, Correct Answer: None, answer==correct_answer: False, 
+path: QA/MultiChoice/Q5/q5_answer_scene2_Day1_location3.json, ChatGPT Answer: kitchin, Correct Answer: None, answer==correct_answer: False, 
+path: QA/MultiChoice/Q5/q5_answer_scene2_Day1_location4.json, ChatGPT Answer: livingroom, Correct Answer: None, answer==correct_answer: False, 
+path: QA/MultiChoice/Q5/q5_answer_scene2_Day1_location5.json, ChatGPT Answer: kitchin, Correct Answer: None, answer==correct_answer: False, 
+path: QA/MultiChoice/Q5/q5_answer_scene2_Day1_location6.json, ChatGPT Answer: kitchin, Correct Answer: None, answer==correct_answer: False, 
+path: QA/MultiChoice/Q5/q5_answer_scene2_Day1_location7.json, ChatGPT Answer: kitchin, Correct Answer: None, answer==correct_answer: False, 
+path: QA/MultiChoice/Q5/q5_answer_scene2_Day1_location8.json, ChatGPT Answer: kitchin, Correct Answer: None, answer==correct_answer: False, 
+path: QA/MultiChoice/Q5/q5_answer_scene2_Day1_location9.json, ChatGPT Answer: kitchin, Correct Answer: None, answer==correct_answer: False, 
+path: QA/MultiChoice/Q5/q5_answer_scene2_Day1_object0.json, ChatGPT Answer: WATERGLASS, Correct Answer: CELLPHONE, answer==correct_answer: False, 
+path: QA/MultiChoice/Q5/q5_answer_scene2_Day1_object1.json, ChatGPT Answer: CELLPHONE, Correct Answer: REMOTECONTROL, answer==correct_answer: False, 
+path: QA/MultiChoice/Q5/q5_answer_scene2_Day1_object10.json, ChatGPT Answer: WATERGLASS, Correct Answer: DISHBOWL, answer==correct_answer: False, 
+path: QA/MultiChoice/Q5/q5_answer_scene2_Day1_object11.json, ChatGPT Answer: DISHBOWL, Correct Answer: CEREAL, answer==correct_answer: False, 
+path: QA/MultiChoice/Q5/q5_answer_scene2_Day1_object12.json, ChatGPT Answer: CEREAL, Correct Answer: JUICE, answer==correct_answer: False, 
+path: QA/MultiChoice/Q5/q5_answer_scene2_Day1_object13.json, ChatGPT Answer: MILK, Correct Answer: WATERGLASS, answer==correct_answer: False, 
+path: QA/MultiChoice/Q5/q5_answer_scene2_Day1_object14.json, ChatGPT Answer: WATERGLASS, Correct Answer: WATERGLASS, answer==correct_answer: True, 
+path: QA/MultiChoice/Q5/q5_answer_scene2_Day1_object15.json, ChatGPT Answer: WATERGLASS, Correct Answer: JUICE, answer==correct_answer: False, 
+path: QA/MultiChoice/Q5/q5_answer_scene2_Day1_object16.json, ChatGPT Answer: WATERGLASS, Correct Answer: WATERGLASS, answer==correct_answer: True, 
+path: QA/MultiChoice/Q5/q5_answer_scene2_Day1_object2.json, ChatGPT Answer: WATERGLASS, Correct Answer: MILK, answer==correct_answer: False, 
+path: QA/MultiChoice/Q5/q5_answer_scene2_Day1_object3.json, ChatGPT Answer: MILK, Correct Answer: WASHINGSPONGE, answer==correct_answer: False, 
+path: QA/MultiChoice/Q5/q5_answer_scene2_Day1_object4.json, ChatGPT Answer: WATERGLASS, Correct Answer: JUICE, answer==correct_answer: False, 
+path: QA/MultiChoice/Q5/q5_answer_scene2_Day1_object5.json, ChatGPT Answer: WATERGLASS, Correct Answer: WATERGLASS, answer==correct_answer: True, 
+path: QA/MultiChoice/Q5/q5_answer_scene2_Day1_object6.json, ChatGPT Answer: WATERGLASS, Correct Answer: WATERGLASS, answer==correct_answer: True, 
+path: QA/MultiChoice/Q5/q5_answer_scene2_Day1_object7.json, ChatGPT Answer: JUICE, Correct Answer: JUICE, answer==correct_answer: True, 
+path: QA/MultiChoice/Q5/q5_answer_scene2_Day1_object8.json, ChatGPT Answer: JUICE, Correct Answer: WATERGLASS, answer==correct_answer: False, 
+path: QA/MultiChoice/Q5/q5_answer_scene2_Day1_object9.json, ChatGPT Answer: WATERGLASS, Correct Answer: MILK, answer==correct_answer: False, 
+Category: YesNo/Q1
+question path: QA/YesNo/Q1/q1_answer_scene2_Day1_bedroom.json
+
+I will provide a question, choices, and functions.
+Select one function to answer the question and include the required arguments in your response.
+Format: function_name, arguments (e.g., count_total_room_entries, bedroom)
+
+Question: Did he enter the bedroom 5 times?
+Choices: ['Yes', 'No']
+Functions:
+- count_total_room_entries
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: Total number of entries into the room
+
+- count_action_occurrences
+# Parameters: action_name (close, grab, switchon, switchoff, turnto, ...)
+# Returns: Number of times the action was performed within each activity
+
+- get_first_action_in_room
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: First action performed after entering the room
+
+- get_last_action_before_entry
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: Last action performed before entering the room
+
+- get_action_at_time
+# Parameters: time (e.g., 1h-30m-15s)
+# Returns: Name of the object and place at the specified time
+    
+ChatGPT Response: [ count_total_room_entries, bedroom ]
+
+Please select the appropriate choice and output only the choice.
+Format: Choice: {answer} (e.g., Choice: Yes, Choice: No, Choice: 5, Choice: GRAB, Choice: livingroom)
+
+Question: Did he enter the bedroom 5 times?
+Choices: ['Yes', 'No']
+Function: count_total_room_entries
+Function output: 3
+
+ChatGPT Response: [ Choice: No ]
+ChatGPT Answer: No
+Correct Answer: No
+Is the answer correct?: True
+question path: QA/YesNo/Q1/q1_answer_scene2_Day1_kitchen.json
+
+I will provide a question, choices, and functions.
+Select one function to answer the question and include the required arguments in your response.
+Format: function_name, arguments (e.g., count_total_room_entries, bedroom)
+
+Question: Did he enter the kitchen 10 times?
+Choices: ['Yes', 'No']
+Functions:
+- count_total_room_entries
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: Total number of entries into the room
+
+- count_action_occurrences
+# Parameters: action_name (close, grab, switchon, switchoff, turnto, ...)
+# Returns: Number of times the action was performed within each activity
+
+- get_first_action_in_room
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: First action performed after entering the room
+
+- get_last_action_before_entry
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: Last action performed before entering the room
+
+- get_action_at_time
+# Parameters: time (e.g., 1h-30m-15s)
+# Returns: Name of the object and place at the specified time
+    
+ChatGPT Response: [ count_total_room_entries, kitchen ]
+
+Please select the appropriate choice and output only the choice.
+Format: Choice: {answer} (e.g., Choice: Yes, Choice: No, Choice: 5, Choice: GRAB, Choice: livingroom)
+
+Question: Did he enter the kitchen 10 times?
+Choices: ['Yes', 'No']
+Function: count_total_room_entries
+Function output: 7
+
+ChatGPT Response: [ Choice: No ]
+ChatGPT Answer: No
+Correct Answer: Yes
+Is the answer correct?: False
+question path: QA/YesNo/Q1/q1_answer_scene2_Day1_livingroom.json
+
+I will provide a question, choices, and functions.
+Select one function to answer the question and include the required arguments in your response.
+Format: function_name, arguments (e.g., count_total_room_entries, bedroom)
+
+Question: Did he enter the livingroom 6 times?
+Choices: ['Yes', 'No']
+Functions:
+- count_total_room_entries
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: Total number of entries into the room
+
+- count_action_occurrences
+# Parameters: action_name (close, grab, switchon, switchoff, turnto, ...)
+# Returns: Number of times the action was performed within each activity
+
+- get_first_action_in_room
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: First action performed after entering the room
+
+- get_last_action_before_entry
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: Last action performed before entering the room
+
+- get_action_at_time
+# Parameters: time (e.g., 1h-30m-15s)
+# Returns: Name of the object and place at the specified time
+    
+ChatGPT Response: [ count_total_room_entries, livingroom ]
+
+Please select the appropriate choice and output only the choice.
+Format: Choice: {answer} (e.g., Choice: Yes, Choice: No, Choice: 5, Choice: GRAB, Choice: livingroom)
+
+Question: Did he enter the livingroom 6 times?
+Choices: ['Yes', 'No']
+Function: count_total_room_entries
+Function output: 6
+
+ChatGPT Response: [ Choice: Yes ]
+ChatGPT Answer: Yes
+Correct Answer: Yes
+Is the answer correct?: True
+success: 2
+failure: 1
+success rate: 0.6666666666666666
+results:
+path: QA/YesNo/Q1/q1_answer_scene2_Day1_bedroom.json, ChatGPT Answer: No, Correct Answer: No, answer==correct_answer: True, 
+path: QA/YesNo/Q1/q1_answer_scene2_Day1_kitchen.json, ChatGPT Answer: No, Correct Answer: Yes, answer==correct_answer: False, 
+path: QA/YesNo/Q1/q1_answer_scene2_Day1_livingroom.json, ChatGPT Answer: Yes, Correct Answer: Yes, answer==correct_answer: True, 
+Category: YesNo/Q2
+question path: QA/YesNo/Q2/q2_answer_scene2_Day1_close.json
+
+I will provide a question, choices, and functions.
+Select one function to answer the question and include the required arguments in your response.
+Format: function_name, arguments (e.g., count_total_room_entries, bedroom)
+
+Question: Did he close 2 times?
+Choices: ['Yes', 'No']
+Functions:
+- count_total_room_entries
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: Total number of entries into the room
+
+- count_action_occurrences
+# Parameters: action_name (close, grab, switchon, switchoff, turnto, ...)
+# Returns: Number of times the action was performed within each activity
+
+- get_first_action_in_room
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: First action performed after entering the room
+
+- get_last_action_before_entry
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: Last action performed before entering the room
+
+- get_action_at_time
+# Parameters: time (e.g., 1h-30m-15s)
+# Returns: Name of the object and place at the specified time
+    
+ChatGPT Response: [ count_action_occurrences, close ]
+
+Please select the appropriate choice and output only the choice.
+Format: Choice: {answer} (e.g., Choice: Yes, Choice: No, Choice: 5, Choice: GRAB, Choice: livingroom)
+
+Question: Did he close 2 times?
+Choices: ['Yes', 'No']
+Function: count_action_occurrences
+Function output: 1
+
+ChatGPT Response: [ Choice: No ]
+ChatGPT Answer: No
+Correct Answer: No
+Is the answer correct?: True
+question path: QA/YesNo/Q2/q2_answer_scene2_Day1_drink.json
+
+I will provide a question, choices, and functions.
+Select one function to answer the question and include the required arguments in your response.
+Format: function_name, arguments (e.g., count_total_room_entries, bedroom)
+
+Question: Did he drink 8 times?
+Choices: ['Yes', 'No']
+Functions:
+- count_total_room_entries
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: Total number of entries into the room
+
+- count_action_occurrences
+# Parameters: action_name (close, grab, switchon, switchoff, turnto, ...)
+# Returns: Number of times the action was performed within each activity
+
+- get_first_action_in_room
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: First action performed after entering the room
+
+- get_last_action_before_entry
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: Last action performed before entering the room
+
+- get_action_at_time
+# Parameters: time (e.g., 1h-30m-15s)
+# Returns: Name of the object and place at the specified time
+    
+ChatGPT Response: [ count_action_occurrences, drink ]
+
+Please select the appropriate choice and output only the choice.
+Format: Choice: {answer} (e.g., Choice: Yes, Choice: No, Choice: 5, Choice: GRAB, Choice: livingroom)
+
+Question: Did he drink 8 times?
+Choices: ['Yes', 'No']
+Function: count_action_occurrences
+Function output: 7
+
+ChatGPT Response: [ Choice: No ]
+ChatGPT Answer: No
+Correct Answer: No
+Is the answer correct?: True
+question path: QA/YesNo/Q2/q2_answer_scene2_Day1_fall.json
+
+I will provide a question, choices, and functions.
+Select one function to answer the question and include the required arguments in your response.
+Format: function_name, arguments (e.g., count_total_room_entries, bedroom)
+
+Question: Did he fall 2 times?
+Choices: ['Yes', 'No']
+Functions:
+- count_total_room_entries
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: Total number of entries into the room
+
+- count_action_occurrences
+# Parameters: action_name (close, grab, switchon, switchoff, turnto, ...)
+# Returns: Number of times the action was performed within each activity
+
+- get_first_action_in_room
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: First action performed after entering the room
+
+- get_last_action_before_entry
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: Last action performed before entering the room
+
+- get_action_at_time
+# Parameters: time (e.g., 1h-30m-15s)
+# Returns: Name of the object and place at the specified time
+    
+ChatGPT Response: [ count_action_occurrences, fall ]
+
+Please select the appropriate choice and output only the choice.
+Format: Choice: {answer} (e.g., Choice: Yes, Choice: No, Choice: 5, Choice: GRAB, Choice: livingroom)
+
+Question: Did he fall 2 times?
+Choices: ['Yes', 'No']
+Function: count_action_occurrences
+Function output: 1
+
+ChatGPT Response: [ Choice: No ]
+ChatGPT Answer: No
+Correct Answer: No
+Is the answer correct?: True
+question path: QA/YesNo/Q2/q2_answer_scene2_Day1_find.json
+
+I will provide a question, choices, and functions.
+Select one function to answer the question and include the required arguments in your response.
+Format: function_name, arguments (e.g., count_total_room_entries, bedroom)
+
+Question: Did he find 2 times?
+Choices: ['Yes', 'No']
+Functions:
+- count_total_room_entries
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: Total number of entries into the room
+
+- count_action_occurrences
+# Parameters: action_name (close, grab, switchon, switchoff, turnto, ...)
+# Returns: Number of times the action was performed within each activity
+
+- get_first_action_in_room
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: First action performed after entering the room
+
+- get_last_action_before_entry
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: Last action performed before entering the room
+
+- get_action_at_time
+# Parameters: time (e.g., 1h-30m-15s)
+# Returns: Name of the object and place at the specified time
+    
+ChatGPT Response: [ count_action_occurrences, find ]
+
+Please select the appropriate choice and output only the choice.
+Format: Choice: {answer} (e.g., Choice: Yes, Choice: No, Choice: 5, Choice: GRAB, Choice: livingroom)
+
+Question: Did he find 2 times?
+Choices: ['Yes', 'No']
+Function: count_action_occurrences
+Function output: 1
+
+ChatGPT Response: [ Choice: No ]
+ChatGPT Answer: No
+Correct Answer: No
+Is the answer correct?: True
+question path: QA/YesNo/Q2/q2_answer_scene2_Day1_grab.json
+
+I will provide a question, choices, and functions.
+Select one function to answer the question and include the required arguments in your response.
+Format: function_name, arguments (e.g., count_total_room_entries, bedroom)
+
+Question: Did he grab 18 times?
+Choices: ['Yes', 'No']
+Functions:
+- count_total_room_entries
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: Total number of entries into the room
+
+- count_action_occurrences
+# Parameters: action_name (close, grab, switchon, switchoff, turnto, ...)
+# Returns: Number of times the action was performed within each activity
+
+- get_first_action_in_room
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: First action performed after entering the room
+
+- get_last_action_before_entry
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: Last action performed before entering the room
+
+- get_action_at_time
+# Parameters: time (e.g., 1h-30m-15s)
+# Returns: Name of the object and place at the specified time
+    
+ChatGPT Response: [ count_action_occurrences, grab ]
+
+Please select the appropriate choice and output only the choice.
+Format: Choice: {answer} (e.g., Choice: Yes, Choice: No, Choice: 5, Choice: GRAB, Choice: livingroom)
+
+Question: Did he grab 18 times?
+Choices: ['Yes', 'No']
+Function: count_action_occurrences
+Function output: 17
+
+ChatGPT Response: [ Choice: No ]
+ChatGPT Answer: No
+Correct Answer: No
+Is the answer correct?: True
+question path: QA/YesNo/Q2/q2_answer_scene2_Day1_open.json
+
+I will provide a question, choices, and functions.
+Select one function to answer the question and include the required arguments in your response.
+Format: function_name, arguments (e.g., count_total_room_entries, bedroom)
+
+Question: Did he open 1 times?
+Choices: ['Yes', 'No']
+Functions:
+- count_total_room_entries
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: Total number of entries into the room
+
+- count_action_occurrences
+# Parameters: action_name (close, grab, switchon, switchoff, turnto, ...)
+# Returns: Number of times the action was performed within each activity
+
+- get_first_action_in_room
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: First action performed after entering the room
+
+- get_last_action_before_entry
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: Last action performed before entering the room
+
+- get_action_at_time
+# Parameters: time (e.g., 1h-30m-15s)
+# Returns: Name of the object and place at the specified time
+    
+ChatGPT Response: [ count_action_occurrences, open ]
+
+Please select the appropriate choice and output only the choice.
+Format: Choice: {answer} (e.g., Choice: Yes, Choice: No, Choice: 5, Choice: GRAB, Choice: livingroom)
+
+Question: Did he open 1 times?
+Choices: ['Yes', 'No']
+Function: count_action_occurrences
+Function output: 1
+
+ChatGPT Response: [ Choice: Yes ]
+ChatGPT Answer: Yes
+Correct Answer: Yes
+Is the answer correct?: True
+question path: QA/YesNo/Q2/q2_answer_scene2_Day1_pour.json
+
+I will provide a question, choices, and functions.
+Select one function to answer the question and include the required arguments in your response.
+Format: function_name, arguments (e.g., count_total_room_entries, bedroom)
+
+Question: Did he pour 5 times?
+Choices: ['Yes', 'No']
+Functions:
+- count_total_room_entries
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: Total number of entries into the room
+
+- count_action_occurrences
+# Parameters: action_name (close, grab, switchon, switchoff, turnto, ...)
+# Returns: Number of times the action was performed within each activity
+
+- get_first_action_in_room
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: First action performed after entering the room
+
+- get_last_action_before_entry
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: Last action performed before entering the room
+
+- get_action_at_time
+# Parameters: time (e.g., 1h-30m-15s)
+# Returns: Name of the object and place at the specified time
+    
+ChatGPT Response: [ count_action_occurrences, pour ]
+
+Please select the appropriate choice and output only the choice.
+Format: Choice: {answer} (e.g., Choice: Yes, Choice: No, Choice: 5, Choice: GRAB, Choice: livingroom)
+
+Question: Did he pour 5 times?
+Choices: ['Yes', 'No']
+Function: count_action_occurrences
+Function output: 4
+
+ChatGPT Response: [ Choice: No ]
+ChatGPT Answer: No
+Correct Answer: No
+Is the answer correct?: True
+question path: QA/YesNo/Q2/q2_answer_scene2_Day1_put.json
+
+I will provide a question, choices, and functions.
+Select one function to answer the question and include the required arguments in your response.
+Format: function_name, arguments (e.g., count_total_room_entries, bedroom)
+
+Question: Did he put 11 times?
+Choices: ['Yes', 'No']
+Functions:
+- count_total_room_entries
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: Total number of entries into the room
+
+- count_action_occurrences
+# Parameters: action_name (close, grab, switchon, switchoff, turnto, ...)
+# Returns: Number of times the action was performed within each activity
+
+- get_first_action_in_room
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: First action performed after entering the room
+
+- get_last_action_before_entry
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: Last action performed before entering the room
+
+- get_action_at_time
+# Parameters: time (e.g., 1h-30m-15s)
+# Returns: Name of the object and place at the specified time
+    
+ChatGPT Response: [ count_action_occurrences, 11 ]
+
+Please select the appropriate choice and output only the choice.
+Format: Choice: {answer} (e.g., Choice: Yes, Choice: No, Choice: 5, Choice: GRAB, Choice: livingroom)
+
+Question: Did he put 11 times?
+Choices: ['Yes', 'No']
+Function: count_action_occurrences
+Function output: 0
+
+ChatGPT Response: [ Choice: No ]
+ChatGPT Answer: No
+Correct Answer: No
+Is the answer correct?: True
+question path: QA/YesNo/Q2/q2_answer_scene2_Day1_sit.json
+
+I will provide a question, choices, and functions.
+Select one function to answer the question and include the required arguments in your response.
+Format: function_name, arguments (e.g., count_total_room_entries, bedroom)
+
+Question: Did he sit 3 times?
+Choices: ['Yes', 'No']
+Functions:
+- count_total_room_entries
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: Total number of entries into the room
+
+- count_action_occurrences
+# Parameters: action_name (close, grab, switchon, switchoff, turnto, ...)
+# Returns: Number of times the action was performed within each activity
+
+- get_first_action_in_room
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: First action performed after entering the room
+
+- get_last_action_before_entry
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: Last action performed before entering the room
+
+- get_action_at_time
+# Parameters: time (e.g., 1h-30m-15s)
+# Returns: Name of the object and place at the specified time
+    
+ChatGPT Response: [ count_action_occurrences, sit ]
+
+Please select the appropriate choice and output only the choice.
+Format: Choice: {answer} (e.g., Choice: Yes, Choice: No, Choice: 5, Choice: GRAB, Choice: livingroom)
+
+Question: Did he sit 3 times?
+Choices: ['Yes', 'No']
+Function: count_action_occurrences
+Function output: 3
+
+ChatGPT Response: [ Choice: Yes ]
+ChatGPT Answer: Yes
+Correct Answer: Yes
+Is the answer correct?: True
+question path: QA/YesNo/Q2/q2_answer_scene2_Day1_stand.json
+
+I will provide a question, choices, and functions.
+Select one function to answer the question and include the required arguments in your response.
+Format: function_name, arguments (e.g., count_total_room_entries, bedroom)
+
+Question: Did he stand 3 times?
+Choices: ['Yes', 'No']
+Functions:
+- count_total_room_entries
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: Total number of entries into the room
+
+- count_action_occurrences
+# Parameters: action_name (close, grab, switchon, switchoff, turnto, ...)
+# Returns: Number of times the action was performed within each activity
+
+- get_first_action_in_room
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: First action performed after entering the room
+
+- get_last_action_before_entry
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: Last action performed before entering the room
+
+- get_action_at_time
+# Parameters: time (e.g., 1h-30m-15s)
+# Returns: Name of the object and place at the specified time
+    
+ChatGPT Response: [ count_action_occurrences, stand ]
+
+Please select the appropriate choice and output only the choice.
+Format: Choice: {answer} (e.g., Choice: Yes, Choice: No, Choice: 5, Choice: GRAB, Choice: livingroom)
+
+Question: Did he stand 3 times?
+Choices: ['Yes', 'No']
+Function: count_action_occurrences
+Function output: 2
+
+ChatGPT Response: [ Choice: No ]
+ChatGPT Answer: No
+Correct Answer: No
+Is the answer correct?: True
+question path: QA/YesNo/Q2/q2_answer_scene2_Day1_switchOff.json
+
+I will provide a question, choices, and functions.
+Select one function to answer the question and include the required arguments in your response.
+Format: function_name, arguments (e.g., count_total_room_entries, bedroom)
+
+Question: Did he switchOff 3 times?
+Choices: ['Yes', 'No']
+Functions:
+- count_total_room_entries
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: Total number of entries into the room
+
+- count_action_occurrences
+# Parameters: action_name (close, grab, switchon, switchoff, turnto, ...)
+# Returns: Number of times the action was performed within each activity
+
+- get_first_action_in_room
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: First action performed after entering the room
+
+- get_last_action_before_entry
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: Last action performed before entering the room
+
+- get_action_at_time
+# Parameters: time (e.g., 1h-30m-15s)
+# Returns: Name of the object and place at the specified time
+    
+ChatGPT Response: [ count_action_occurrences, switchoff ]
+
+Please select the appropriate choice and output only the choice.
+Format: Choice: {answer} (e.g., Choice: Yes, Choice: No, Choice: 5, Choice: GRAB, Choice: livingroom)
+
+Question: Did he switchOff 3 times?
+Choices: ['Yes', 'No']
+Function: count_action_occurrences
+Function output: 2
+
+ChatGPT Response: [ Choice: No ]
+ChatGPT Answer: No
+Correct Answer: No
+Is the answer correct?: True
+question path: QA/YesNo/Q2/q2_answer_scene2_Day1_switchOn.json
+
+I will provide a question, choices, and functions.
+Select one function to answer the question and include the required arguments in your response.
+Format: function_name, arguments (e.g., count_total_room_entries, bedroom)
+
+Question: Did he switchOn 2 times?
+Choices: ['Yes', 'No']
+Functions:
+- count_total_room_entries
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: Total number of entries into the room
+
+- count_action_occurrences
+# Parameters: action_name (close, grab, switchon, switchoff, turnto, ...)
+# Returns: Number of times the action was performed within each activity
+
+- get_first_action_in_room
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: First action performed after entering the room
+
+- get_last_action_before_entry
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: Last action performed before entering the room
+
+- get_action_at_time
+# Parameters: time (e.g., 1h-30m-15s)
+# Returns: Name of the object and place at the specified time
+    
+ChatGPT Response: [ count_action_occurrences, switchon ]
+
+Please select the appropriate choice and output only the choice.
+Format: Choice: {answer} (e.g., Choice: Yes, Choice: No, Choice: 5, Choice: GRAB, Choice: livingroom)
+
+Question: Did he switchOn 2 times?
+Choices: ['Yes', 'No']
+Function: count_action_occurrences
+Function output: 1
+
+ChatGPT Response: [ Choice: No ]
+ChatGPT Answer: No
+Correct Answer: No
+Is the answer correct?: True
+question path: QA/YesNo/Q2/q2_answer_scene2_Day1_text.json
+
+I will provide a question, choices, and functions.
+Select one function to answer the question and include the required arguments in your response.
+Format: function_name, arguments (e.g., count_total_room_entries, bedroom)
+
+Question: Did he text 3 times?
+Choices: ['Yes', 'No']
+Functions:
+- count_total_room_entries
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: Total number of entries into the room
+
+- count_action_occurrences
+# Parameters: action_name (close, grab, switchon, switchoff, turnto, ...)
+# Returns: Number of times the action was performed within each activity
+
+- get_first_action_in_room
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: First action performed after entering the room
+
+- get_last_action_before_entry
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: Last action performed before entering the room
+
+- get_action_at_time
+# Parameters: time (e.g., 1h-30m-15s)
+# Returns: Name of the object and place at the specified time
+    
+ChatGPT Response: [ count_action_occurrences, text ]
+
+Please select the appropriate choice and output only the choice.
+Format: Choice: {answer} (e.g., Choice: Yes, Choice: No, Choice: 5, Choice: GRAB, Choice: livingroom)
+
+Question: Did he text 3 times?
+Choices: ['Yes', 'No']
+Function: count_action_occurrences
+Function output: 2
+
+ChatGPT Response: [ Choice: No ]
+ChatGPT Answer: No
+Correct Answer: No
+Is the answer correct?: True
+question path: QA/YesNo/Q2/q2_answer_scene2_Day1_turnTo.json
+
+I will provide a question, choices, and functions.
+Select one function to answer the question and include the required arguments in your response.
+Format: function_name, arguments (e.g., count_total_room_entries, bedroom)
+
+Question: Did he turnTo 2 times?
+Choices: ['Yes', 'No']
+Functions:
+- count_total_room_entries
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: Total number of entries into the room
+
+- count_action_occurrences
+# Parameters: action_name (close, grab, switchon, switchoff, turnto, ...)
+# Returns: Number of times the action was performed within each activity
+
+- get_first_action_in_room
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: First action performed after entering the room
+
+- get_last_action_before_entry
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: Last action performed before entering the room
+
+- get_action_at_time
+# Parameters: time (e.g., 1h-30m-15s)
+# Returns: Name of the object and place at the specified time
+    
+ChatGPT Response: [ count_action_occurrences, turnto ]
+
+Please select the appropriate choice and output only the choice.
+Format: Choice: {answer} (e.g., Choice: Yes, Choice: No, Choice: 5, Choice: GRAB, Choice: livingroom)
+
+Question: Did he turnTo 2 times?
+Choices: ['Yes', 'No']
+Function: count_action_occurrences
+Function output: 1
+
+ChatGPT Response: [ Choice: No ]
+ChatGPT Answer: No
+Correct Answer: No
+Is the answer correct?: True
+question path: QA/YesNo/Q2/q2_answer_scene2_Day1_walk.json
+
+I will provide a question, choices, and functions.
+Select one function to answer the question and include the required arguments in your response.
+Format: function_name, arguments (e.g., count_total_room_entries, bedroom)
+
+Question: Did he walk 44 times?
+Choices: ['Yes', 'No']
+Functions:
+- count_total_room_entries
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: Total number of entries into the room
+
+- count_action_occurrences
+# Parameters: action_name (close, grab, switchon, switchoff, turnto, ...)
+# Returns: Number of times the action was performed within each activity
+
+- get_first_action_in_room
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: First action performed after entering the room
+
+- get_last_action_before_entry
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: Last action performed before entering the room
+
+- get_action_at_time
+# Parameters: time (e.g., 1h-30m-15s)
+# Returns: Name of the object and place at the specified time
+    
+ChatGPT Response: [ count_action_occurrences, walk ]
+
+Please select the appropriate choice and output only the choice.
+Format: Choice: {answer} (e.g., Choice: Yes, Choice: No, Choice: 5, Choice: GRAB, Choice: livingroom)
+
+Question: Did he walk 44 times?
+Choices: ['Yes', 'No']
+Function: count_action_occurrences
+Function output: 47
+
+ChatGPT Response: [ Choice: No ]
+ChatGPT Answer: No
+Correct Answer: No
+Is the answer correct?: True
+question path: QA/YesNo/Q2/q2_answer_scene2_Day1_wipe.json
+
+I will provide a question, choices, and functions.
+Select one function to answer the question and include the required arguments in your response.
+Format: function_name, arguments (e.g., count_total_room_entries, bedroom)
+
+Question: Did he wipe 2 times?
+Choices: ['Yes', 'No']
+Functions:
+- count_total_room_entries
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: Total number of entries into the room
+
+- count_action_occurrences
+# Parameters: action_name (close, grab, switchon, switchoff, turnto, ...)
+# Returns: Number of times the action was performed within each activity
+
+- get_first_action_in_room
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: First action performed after entering the room
+
+- get_last_action_before_entry
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: Last action performed before entering the room
+
+- get_action_at_time
+# Parameters: time (e.g., 1h-30m-15s)
+# Returns: Name of the object and place at the specified time
+    
+ChatGPT Response: [ count_action_occurrences, wipe ]
+
+Please select the appropriate choice and output only the choice.
+Format: Choice: {answer} (e.g., Choice: Yes, Choice: No, Choice: 5, Choice: GRAB, Choice: livingroom)
+
+Question: Did he wipe 2 times?
+Choices: ['Yes', 'No']
+Function: count_action_occurrences
+Function output: 1
+
+ChatGPT Response: [ Choice: No ]
+ChatGPT Answer: No
+Correct Answer: No
+Is the answer correct?: True
+success: 16
+failure: 0
+success rate: 1.0
+results:
+path: QA/YesNo/Q2/q2_answer_scene2_Day1_close.json, ChatGPT Answer: No, Correct Answer: No, answer==correct_answer: True, 
+path: QA/YesNo/Q2/q2_answer_scene2_Day1_drink.json, ChatGPT Answer: No, Correct Answer: No, answer==correct_answer: True, 
+path: QA/YesNo/Q2/q2_answer_scene2_Day1_fall.json, ChatGPT Answer: No, Correct Answer: No, answer==correct_answer: True, 
+path: QA/YesNo/Q2/q2_answer_scene2_Day1_find.json, ChatGPT Answer: No, Correct Answer: No, answer==correct_answer: True, 
+path: QA/YesNo/Q2/q2_answer_scene2_Day1_grab.json, ChatGPT Answer: No, Correct Answer: No, answer==correct_answer: True, 
+path: QA/YesNo/Q2/q2_answer_scene2_Day1_open.json, ChatGPT Answer: Yes, Correct Answer: Yes, answer==correct_answer: True, 
+path: QA/YesNo/Q2/q2_answer_scene2_Day1_pour.json, ChatGPT Answer: No, Correct Answer: No, answer==correct_answer: True, 
+path: QA/YesNo/Q2/q2_answer_scene2_Day1_put.json, ChatGPT Answer: No, Correct Answer: No, answer==correct_answer: True, 
+path: QA/YesNo/Q2/q2_answer_scene2_Day1_sit.json, ChatGPT Answer: Yes, Correct Answer: Yes, answer==correct_answer: True, 
+path: QA/YesNo/Q2/q2_answer_scene2_Day1_stand.json, ChatGPT Answer: No, Correct Answer: No, answer==correct_answer: True, 
+path: QA/YesNo/Q2/q2_answer_scene2_Day1_switchOff.json, ChatGPT Answer: No, Correct Answer: No, answer==correct_answer: True, 
+path: QA/YesNo/Q2/q2_answer_scene2_Day1_switchOn.json, ChatGPT Answer: No, Correct Answer: No, answer==correct_answer: True, 
+path: QA/YesNo/Q2/q2_answer_scene2_Day1_text.json, ChatGPT Answer: No, Correct Answer: No, answer==correct_answer: True, 
+path: QA/YesNo/Q2/q2_answer_scene2_Day1_turnTo.json, ChatGPT Answer: No, Correct Answer: No, answer==correct_answer: True, 
+path: QA/YesNo/Q2/q2_answer_scene2_Day1_walk.json, ChatGPT Answer: No, Correct Answer: No, answer==correct_answer: True, 
+path: QA/YesNo/Q2/q2_answer_scene2_Day1_wipe.json, ChatGPT Answer: No, Correct Answer: No, answer==correct_answer: True, 
+Category: YesNo/Q3
+question path: QA/YesNo/Q3/q3_answer_scene2_Day1.json
+
+I will provide a question, choices, and functions.
+Select one function to answer the question and include the required arguments in your response.
+Format: function_name, arguments (e.g., count_total_room_entries, bedroom)
+
+Question: Did he SIT after he first entered the kitchen?
+Choices: ['Yes', 'No']
+Functions:
+- count_total_room_entries
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: Total number of entries into the room
+
+- count_action_occurrences
+# Parameters: action_name (close, grab, switchon, switchoff, turnto, ...)
+# Returns: Number of times the action was performed within each activity
+
+- get_first_action_in_room
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: First action performed after entering the room
+
+- get_last_action_before_entry
+# Parameters: room_name (e.g., bedroom, bathroom, kitchen, livingroom)
+# Returns: Last action performed before entering the room
+
+- get_action_at_time
+# Parameters: time (e.g., 1h-30m-15s)
+# Returns: Name of the object and place at the specified time
+    
+ChatGPT Response: [ get_first_action_in_room, kitchen ]
+
+Please select the appropriate choice and output only the choice.
+Format: Choice: {answer} (e.g., Choice: Yes, Choice: No, Choice: 5, Choice: GRAB, Choice: livingroom)
+
+Question: Did he SIT after he first entered the kitchen?
+Choices: ['Yes', 'No']
+Function: get_first_action_in_room
+Function output: ['walk', 'sit']
+
+ChatGPT Response: [ Choice: Yes ]
+ChatGPT Answer: Yes
+Correct Answer: Yes
+Is the answer correct?: True
+success: 1
+failure: 0
+success rate: 1.0
+results:
+path: QA/YesNo/Q3/q3_answer_scene2_Day1.json, ChatGPT Answer: Yes, Correct Answer: Yes, answer==correct_answer: True, 
+MultiChoice/Q1: {'success': 2, 'failure': 1, 'success rate': 0.6666666666666666}
+MultiChoice/Q2: {'success': 15, 'failure': 1, 'success rate': 0.9375}
+MultiChoice/Q3: {'success': 1, 'failure': 0, 'success rate': 1.0}
+MultiChoice/Q4: {'success': 1, 'failure': 0, 'success rate': 1.0}
+MultiChoice/Q5: {'success': 6, 'failure': 28, 'success rate': 0.17647058823529413}
+YesNo/Q1: {'success': 2, 'failure': 1, 'success rate': 0.6666666666666666}
+YesNo/Q2: {'success': 16, 'failure': 0, 'success rate': 1.0}
+YesNo/Q3: {'success': 1, 'failure': 0, 'success rate': 1.0}
